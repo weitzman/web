@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " >
+  
+<!-- Mirrored from pilot.mass.gov/living by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 May 2017 15:42:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<script>dataLayer = [{"drupalLanguage":"en","drupalCountry":"US","entityType":"node","entityBundle":"section_landing","entityId":"291","entityLabel":"Living","entityLangcode":"en","entityVid":"22196","entityUid":"36","entityCreated":"1476815691","entityStatus":"1","entityName":"nfairhead","entityTaxonomy":{"icons":{"128":"Houses (Large)"}},"userUid":0}];</script>
+<meta name="title" content="Living | Mass.gov" />
+<meta property="og:title" content="Living" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Mass.gov" />
+<meta property="og:url" content="https://pilot.mass.gov/living" />
+<meta name="twitter:url" content="https://pilot.mass.gov/living" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site:id" content="16264003" />
+<meta name="twitter:title" content="Living" />
+<meta name="twitter:site" content="@massgov" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="images/stateseal.png" type="image/png" />
+<link rel="canonical" href="living.html" />
+<link rel="shortlink" href="291.html" />
+<link rel="revision" href="living.html" />
+
+    <title>Living | Mass.gov</title>
+    <script>
+  (function() {
+    // Note: this js snippet should be required inline in the head of the document,
+    // since it redirects & thus should be run as early as possible on the page.
+    var referrerTest = /www.mass.gov\/(anf|portal|governor|eopss|eohhs|ocabr|lwd|hed|treasury|ago|mtrs|berkshireda|capeda|cjc|comptroller|dor|dppc|mdaa|elders|essexsheriff|essexda|edu|eea|hdc|informedma|ig|women|courts|mova|msa|massworkforce|childadvocate|pca|auditor|ethics|srbtf|veterans|resources|cgi-bin|itdemployee|alert|mcad|perac)\/.*/;
+    var interstitialURL = window.location.origin + '/entering-pilot?continueURL=' + window.location.href;
+
+    if (document.referrer.match(referrerTest) !== null && !window.localStorage.noInterstitial) {
+      // Do interstitial things.
+      window.location.href = interstitialURL;
+    }
+
+  })();
+</script>
+    <link rel="stylesheet" href="images/css_nredne1wbud2ozkjozs8b1jvabhyxqbplnfotdcut-a5ced.css?opfy2z" media="all" />
+<link rel="stylesheet" href="images/css_bfhwc3mzdhueg-sm9uu7xphy5rgg6-o-jr7stb61gni5ced.css?opfy2z" media="all" />
+
+    <script src="http://www.google.com/jsapi"></script>
+
+<!--[if lte IE 8]>
+<script src="/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="images/js_tpee2ib9mrn8facyvfbp-wk4sfrlhuantg6qwl-1ins.js"></script>
+
+        <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "@id": "https://pilot.mass.gov/#organization",
+          "url": "https://pilot.mass.gov",
+          "logo": "https://pilot.mass.gov/themes/custom/mass_theme/images/stateseal-color.png",          "name": "Commonwealth of Massachusetts",
+          "sameAs":
+            [
+    "https://www.facebook.com/massgov",
+    "https://twitter.com/massgov",
+    "https://www.linkedin.com/company/commonwealth-of-massachusetts",
+    "https://www.youtube.com/user/massgov",
+    "https://www.instagram.com/massgov/"
+]
+                  }
+    </script>
+    <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "WPHeader",
+          "@id": "https://pilot.mass.gov/living#header"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "WPFooter",
+          "@id": "https://pilot.mass.gov/living#footer"
+      }
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "SiteNavigationElement",
+          "@id": "https://pilot.mass.gov/living#main-navigation"
+        }
+    </script>
+  </head>
+  <body vocab="http://schema.org/" typeof="WebPage" class="not-front">
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-MPHNMQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='http://www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MPHNMQ');</script>
+<!-- End Google Tag Manager -->
+    
+      
+      <div class="js-view-dom-id-aefbd5c59dda2707eb4ebd0b4c3aa834ebc47d89ca9203c730fbcf5f1c0127ad">
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+</div>
+
+
+  
+
+
+<header id="header" class="ma__header" role="banner">
+  <a href="#main-content" class="ma__header__skip-nav visually-hidden focusable">
+    Skip to main content
+  </a>
+  <div class="ma__header__backto">
+    <a href="http://www.mass.gov/">Go to classic Mass.gov</a>
+  </div>
+  <div class="ma__header__container">
+    <div class="ma__header__logo">
+            <div class="ma__site-logo">
+        <a href="index.html" title="Mass.gov home page">
+          <img src="images/stateseal.png" alt="Mass.gov" width="75" height="75" />
+        </a>
+      </div>
+          </div>
+          <div class="ma__header__search js-header-search-menu">
+        <section class="ma__header-search">
+              <div id="cse-header-search-form" style="width: 100%;" role="search">Loading</div>
+          <button class="ma__button-search">
+            <span>Search</span>
+            <svg aria-hidden="true" id="SvgjsSvg1038" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="20" viewBox="0 0 20 20"><defs id="SvgjsDefs1039"></defs><path id="SvgjsPath1040" d="M1424.99 107.4L1419.66 102.105C1420.44 100.884 1420.89 99.4383 1420.89 97.8892C1420.89 93.54 1417.3300000000002 90 1412.95 90C1408.57 90 1405.01 93.54 1405.01 97.89C1405.01 102.241 1408.57 105.781 1412.95 105.781C1414.43 105.781 1415.82 105.375 1417.01 104.67L1422.3799999999999 110ZM1407.97 97.89C1407.97 95.1625 1410.2 92.9416 1412.95 92.9416C1415.7 92.9416 1417.93 95.1617 1417.93 97.89C1417.93 100.619 1415.7 102.839 1412.95 102.839C1410.2 102.839 1407.97 100.619 1407.97 97.89Z " transform="matrix(1,0,0,1,-1405,-90)"></path></svg>          </button>
+        </section>
+      </div>
+      </div>
+    <nav class="ma__header__nav" role="navigation" aria-labelledby="main-navigation-heading" id="main-navigation">
+            
+  <h2 class="visually-hidden" id="main-navigation-heading">Main navigation</h2>
+  
+
+  <div class="ma__header__button-container js-sticky-header">
+    <button class="ma__header__back-button js-close-sub-nav"><span>Back</span></button>
+    <button class="ma__header__menu-button js-header-menu-button">
+      <span>Menu</span><span class="ma__header__menu-icon"></span>
+    </button>
+  </div>
+  <div class="ma__header__nav-container">
+    <div class="ma__header__nav-search">
+      <section class="ma__header-search">
+            <div id="cse-search-form-mobile" style="width: 100%;" role="search">Loading</div>
+      </section>
+    </div>
+    <div class="ma__header__main-nav">
+                    <section class="ma__main-nav">
+  <ul class="ma__main-nav__items js-main-nav">
+                      <li class="ma__main-nav__item is-active has-subnav js-main-nav-toggle">
+                  <button id="button1" class="ma__main-nav__top-link" aria-haspopup="true" aria-expanded="false" aria-controls="menu1">Living</button>
+          <div class="ma__main-nav__subitems js-main-nav-content is-closed">
+            <ul id="menu1" role="menu" aria-labelledby="button1" class="ma__main-nav__container">
+              <li role="menuitem" class="ma__main-nav__subitem"><a href="living.html" class="ma__main-nav__link">Living</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="health-social-services.html" class="ma__main-nav__link">Health &amp; Social Services</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="families-children.html" class="ma__main-nav__link">Families &amp; Children</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="housing-property.html" class="ma__main-nav__link">Housing &amp; Property</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="transportation.html" class="ma__main-nav__link">Transportation</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="legal-justice.html" class="ma__main-nav__link">Legal &amp; Justice</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="public-safety.html" class="ma__main-nav__link">Public Safety</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="environment.html" class="ma__main-nav__link">Environment</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="taxes.html" class="ma__main-nav__link">Taxes</a></li>
+                            <li role="menuitem" class="ma__main-nav__subitem">
+                <a href="living.html" class="ma__main-nav__link">
+                  <svg aria-hidden="true" id="SvgjsSvg1008" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="21" viewBox="0 0 20 21"><defs id="SvgjsDefs1009"></defs><path id="SvgjsPath1010" d="M135.721 597.277V597.277L138.423 600V600V600L135.721 602.724V602.724L130.318 608.1690000000001L127.61700000000002 605.4470000000001L131.115 601.9190000000001H121.44300000000001V598.0680000000001H131.103L127.61600000000001 594.5530000000001L130.318 591.8300000000002ZM122.882 588.322V601.994H119.105V588.3340000000001Z " fill-opacity="1" transform="matrix(1,0,0,1,-119,-588)"></path></svg>
+                  <span>Living</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+              </li>
+                      <li class="ma__main-nav__item  has-subnav js-main-nav-toggle">
+                  <button id="button2" class="ma__main-nav__top-link" aria-haspopup="true" aria-expanded="false" aria-controls="menu2">Working</button>
+          <div class="ma__main-nav__subitems js-main-nav-content is-closed">
+            <ul id="menu2" role="menu" aria-labelledby="button2" class="ma__main-nav__container">
+              <li role="menuitem" class="ma__main-nav__subitem"><a href="working.html" class="ma__main-nav__link">Working</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="business-resources.html" class="ma__main-nav__link">Business Resources</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="professional-licensing.html" class="ma__main-nav__link">Professional Licensing</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="unemployment.html" class="ma__main-nav__link">Unemployment</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="finding-job.html" class="ma__main-nav__link">Finding a Job</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="workers-rights-safety.html" class="ma__main-nav__link">Workers&#039; Rights &amp; Safety</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="state-employees.html" class="ma__main-nav__link">For State Employees</a></li>
+                            <li role="menuitem" class="ma__main-nav__subitem">
+                <a href="working.html" class="ma__main-nav__link">
+                  <svg aria-hidden="true" id="SvgjsSvg1008" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="21" viewBox="0 0 20 21"><defs id="SvgjsDefs1009"></defs><path id="SvgjsPath1010" d="M135.721 597.277V597.277L138.423 600V600V600L135.721 602.724V602.724L130.318 608.1690000000001L127.61700000000002 605.4470000000001L131.115 601.9190000000001H121.44300000000001V598.0680000000001H131.103L127.61600000000001 594.5530000000001L130.318 591.8300000000002ZM122.882 588.322V601.994H119.105V588.3340000000001Z " fill-opacity="1" transform="matrix(1,0,0,1,-119,-588)"></path></svg>
+                  <span>Working</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+              </li>
+                      <li class="ma__main-nav__item  has-subnav js-main-nav-toggle">
+                  <button id="button3" class="ma__main-nav__top-link" aria-haspopup="true" aria-expanded="false" aria-controls="menu3">Learning</button>
+          <div class="ma__main-nav__subitems js-main-nav-content is-closed">
+            <ul id="menu3" role="menu" aria-labelledby="button3" class="ma__main-nav__container">
+              <li role="menuitem" class="ma__main-nav__subitem"><a href="learning.html" class="ma__main-nav__link">Learning</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="early-childhood-education.html" class="ma__main-nav__link">Early Childhood Education</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="elementary-secondary-schools.html" class="ma__main-nav__link">Elementary &amp; Secondary Schools</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="higher-education.html" class="ma__main-nav__link">Higher Education</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="continuing-education.html" class="ma__main-nav__link">Continuing Education</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="educators-administrators.html" class="ma__main-nav__link">For Educators &amp; Administrators</a></li>
+                            <li role="menuitem" class="ma__main-nav__subitem">
+                <a href="learning.html" class="ma__main-nav__link">
+                  <svg aria-hidden="true" id="SvgjsSvg1008" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="21" viewBox="0 0 20 21"><defs id="SvgjsDefs1009"></defs><path id="SvgjsPath1010" d="M135.721 597.277V597.277L138.423 600V600V600L135.721 602.724V602.724L130.318 608.1690000000001L127.61700000000002 605.4470000000001L131.115 601.9190000000001H121.44300000000001V598.0680000000001H131.103L127.61600000000001 594.5530000000001L130.318 591.8300000000002ZM122.882 588.322V601.994H119.105V588.3340000000001Z " fill-opacity="1" transform="matrix(1,0,0,1,-119,-588)"></path></svg>
+                  <span>Learning</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+              </li>
+                      <li class="ma__main-nav__item  has-subnav js-main-nav-toggle">
+                  <button id="button4" class="ma__main-nav__top-link" aria-haspopup="true" aria-expanded="false" aria-controls="menu4">Visiting &amp; Exploring</button>
+          <div class="ma__main-nav__subitems js-main-nav-content is-closed">
+            <ul id="menu4" role="menu" aria-labelledby="button4" class="ma__main-nav__container">
+              <li role="menuitem" class="ma__main-nav__subitem"><a href="visiting-exploring.html" class="ma__main-nav__link">Visiting &amp; Exploring</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="parks-recreation.html" class="ma__main-nav__link">Parks &amp; Recreation</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="visiting-massachusetts.html" class="ma__main-nav__link">Visiting Massachusetts</a></li>
+                              <li role="menuitem" class="ma__main-nav__subitem"><a href="hunting-fishing.html" class="ma__main-nav__link">Hunting &amp; Fishing</a></li>
+                            <li role="menuitem" class="ma__main-nav__subitem">
+                <a href="visiting-exploring.html" class="ma__main-nav__link">
+                  <svg aria-hidden="true" id="SvgjsSvg1008" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="21" viewBox="0 0 20 21"><defs id="SvgjsDefs1009"></defs><path id="SvgjsPath1010" d="M135.721 597.277V597.277L138.423 600V600V600L135.721 602.724V602.724L130.318 608.1690000000001L127.61700000000002 605.4470000000001L131.115 601.9190000000001H121.44300000000001V598.0680000000001H131.103L127.61600000000001 594.5530000000001L130.318 591.8300000000002ZM122.882 588.322V601.994H119.105V588.3340000000001Z " fill-opacity="1" transform="matrix(1,0,0,1,-119,-588)"></path></svg>
+                  <span>Visiting &amp; Exploring</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+              </li>
+      </ul>
+</section>
+
+          </div>
+    <div class="ma__header__utility-nav">
+      <section class="ma__utility-nav js-util-nav">
+  <ul class="ma__utility-nav__items">
+          <li class="ma__utility-nav__item">
+        <div class="ma__utility-nav__translate">
+          <div id="google_translate_element"></div>
+          <div class="ma__utility-nav__translate-icon">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z"/></svg>
+          </div>
+        </div>
+      </li>
+              <li class="ma__utility-nav__item js-util-nav-toggle">
+        <a class="ma__utility-nav__link" 
+          href="#" 
+          title="State Organizations">
+          <svg aria-hidden="true" id="SvgjsSvg1026" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="16" viewBox="0 0 16 16"><defs id="SvgjsDefs1027"></defs><path id="SvgjsPath1028" d="M1169.73 14.5924L1169.73 13L1168.27 13L1168.27 14.5924C1166.21 14.9558 1164.6399999999999 16.8309 1164.6399999999999 19.0952L1173.36 19.0952C1173.36 16.8309 1171.79 14.955799999999998 1169.7299999999998 14.592399999999998ZM1176.27 24.4286L1174.09 24.4286L1174.09 21.381C1174.09 20.9604 1173.77 20.619 1173.36 20.619L1164.6399999999999 20.619C1164.2299999999998 20.619 1163.9099999999999 20.9604 1163.9099999999999 21.381L1163.9099999999999 24.4286L1161.7299999999998 24.4286C1161.3299999999997 24.4286 1160.9999999999998 24.7699 1160.9999999999998 25.1905L1160.9999999999998 28.2381C1160.9999999999998 28.659399999999998 1161.3299999999997 29 1161.7299999999998 29L1176.2699999999998 29C1176.6699999999998 29 1176.9999999999998 28.6594 1176.9999999999998 28.2381L1176.9999999999998 25.1905C1176.9999999999998 24.7699 1176.6699999999998 24.4286 1176.2699999999998 24.4286ZM1163.91 27.4762L1162.45 27.4762L1162.45 25.952399999999997L1163.91 25.952399999999997ZM1166.82 27.4762L1165.36 27.4762L1165.36 25.952399999999997L1166.82 25.952399999999997ZM1166.82 23.6667L1165.36 23.6667L1165.36 22.142899999999997L1166.82 22.142899999999997ZM1169.73 27.4762L1168.27 27.4762L1168.27 25.952399999999997L1169.73 25.952399999999997ZM1169.73 23.6667L1168.27 23.6667L1168.27 22.142899999999997L1169.73 22.142899999999997ZM1172.64 27.4762L1171.18 27.4762L1171.18 25.952399999999997L1172.64 25.952399999999997ZM1172.64 23.6667L1171.18 23.6667L1171.18 22.142899999999997L1172.64 22.142899999999997ZM1175.55 27.4762L1174.09 27.4762L1174.09 25.952399999999997L1175.55 25.952399999999997Z " transform="matrix(1,0,0,1,-1161,-13)"></path></svg>          <span>
+            State Organizations
+          </span>
+        </a>
+        <div aria-hidden="true" class="ma__utility-nav__content js-util-nav-content is-closed">
+          <div class="ma__utility-nav__container">
+            <div class="ma__utility-nav__content-title">
+              <button class="ma__utility-nav__close js-close-util-nav"><span>Close</span><span aria-hidden="true">+</span></button>
+              <svg aria-hidden="true" id="SvgjsSvg1026" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="16" viewBox="0 0 16 16"><defs id="SvgjsDefs1027"></defs><path id="SvgjsPath1028" d="M1169.73 14.5924L1169.73 13L1168.27 13L1168.27 14.5924C1166.21 14.9558 1164.6399999999999 16.8309 1164.6399999999999 19.0952L1173.36 19.0952C1173.36 16.8309 1171.79 14.955799999999998 1169.7299999999998 14.592399999999998ZM1176.27 24.4286L1174.09 24.4286L1174.09 21.381C1174.09 20.9604 1173.77 20.619 1173.36 20.619L1164.6399999999999 20.619C1164.2299999999998 20.619 1163.9099999999999 20.9604 1163.9099999999999 21.381L1163.9099999999999 24.4286L1161.7299999999998 24.4286C1161.3299999999997 24.4286 1160.9999999999998 24.7699 1160.9999999999998 25.1905L1160.9999999999998 28.2381C1160.9999999999998 28.659399999999998 1161.3299999999997 29 1161.7299999999998 29L1176.2699999999998 29C1176.6699999999998 29 1176.9999999999998 28.6594 1176.9999999999998 28.2381L1176.9999999999998 25.1905C1176.9999999999998 24.7699 1176.6699999999998 24.4286 1176.2699999999998 24.4286ZM1163.91 27.4762L1162.45 27.4762L1162.45 25.952399999999997L1163.91 25.952399999999997ZM1166.82 27.4762L1165.36 27.4762L1165.36 25.952399999999997L1166.82 25.952399999999997ZM1166.82 23.6667L1165.36 23.6667L1165.36 22.142899999999997L1166.82 22.142899999999997ZM1169.73 27.4762L1168.27 27.4762L1168.27 25.952399999999997L1169.73 25.952399999999997ZM1169.73 23.6667L1168.27 23.6667L1168.27 22.142899999999997L1169.73 22.142899999999997ZM1172.64 27.4762L1171.18 27.4762L1171.18 25.952399999999997L1172.64 25.952399999999997ZM1172.64 23.6667L1171.18 23.6667L1171.18 22.142899999999997L1172.64 22.142899999999997ZM1175.55 27.4762L1174.09 27.4762L1174.09 25.952399999999997L1175.55 25.952399999999997Z " transform="matrix(1,0,0,1,-1161,-13)"></path></svg>              <span>State Organizations</span>
+            </div>
+            <div class="ma__utility-nav__content-body">
+                            <section class="ma__utility-panel">
+  <div class="ma__utility-panel__description ma__utility-panel__description--full">
+        <section 
+  class="ma__rich-text js-ma-rich-text"
+  >
+          <p>The <a href="state-organization-index.html">State Organization Index</a> provides an alphabetical listing of government organizations, including commissions, departments, and bureaus.
+</p>  
+  </section>  </div>
+  <ul class="ma__utility-panel__items">
+      </ul>
+</section>
+            </div>
+          </div>
+        </div>
+      </li>
+          <li class="ma__utility-nav__item js-util-nav-toggle">
+        <a class="ma__utility-nav__link" 
+          href="#" 
+          title="Log In to...">
+          <svg aria-hidden="true" id="SvgjsSvg1035" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="16" viewBox="0 0 20 16"><defs id="SvgjsDefs1036"></defs><path id="SvgjsPath1037" d="M1338.67 19.6L1338.67 16.400000000000002L1345.3300000000002 22L1338.67 27.6L1338.67 24.400000000000002L1332 24.400000000000002L1332 19.6ZM1340.33 14L1340.33 15.6L1350.33 15.6L1350.33 28.4L1340.33 28.4L1340.33 30L1352 30L1352 14Z " transform="matrix(1,0,0,1,-1332,-14)"></path></svg>          <span>
+            Log In to...
+          </span>
+        </a>
+        <div aria-hidden="true" class="ma__utility-nav__content js-util-nav-content is-closed">
+          <div class="ma__utility-nav__container">
+            <div class="ma__utility-nav__content-title">
+              <button class="ma__utility-nav__close js-close-util-nav"><span>Close</span><span aria-hidden="true">+</span></button>
+              <svg aria-hidden="true" id="SvgjsSvg1035" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="16" viewBox="0 0 20 16"><defs id="SvgjsDefs1036"></defs><path id="SvgjsPath1037" d="M1338.67 19.6L1338.67 16.400000000000002L1345.3300000000002 22L1338.67 27.6L1338.67 24.400000000000002L1332 24.400000000000002L1332 19.6ZM1340.33 14L1340.33 15.6L1350.33 15.6L1350.33 28.4L1340.33 28.4L1340.33 30L1352 30L1352 14Z " transform="matrix(1,0,0,1,-1332,-14)"></path></svg>              <span>Log In to...</span>
+            </div>
+            <div class="ma__utility-nav__content-body">
+                            <section class="ma__utility-panel">
+  <div class="ma__utility-panel__description ">
+        <section 
+  class="ma__rich-text js-ma-rich-text"
+  >
+          <p>Top-requested sites to log in to services provided by the state
+</p>  
+  </section>  </div>
+  <ul class="ma__utility-panel__items">
+          <li class="ma__utility-panel__item js-clickable">
+        <span class="ma__decorative-link">
+  <a 
+    href="https://gateway.hhs.state.ma.us/portal/dt" 
+    class="js-clickable-link"
+            >Virtual Gateway (Snap)&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </li>
+          <li class="ma__utility-panel__item js-clickable">
+        <span class="ma__decorative-link">
+  <a 
+    href="https://uionline.detma.org/Claimant/Core/Login.ASPX" 
+    class="js-clickable-link"
+            >Unemployment Online&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </li>
+          <li class="ma__utility-panel__item js-clickable">
+        <span class="ma__decorative-link">
+  <a 
+    href="https://ecse.cse.state.ma.us/ECSE/Login/login.asp" 
+    class="js-clickable-link"
+            >Child Support Enforcement&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </li>
+      </ul>
+</section>
+            </div>
+          </div>
+        </div>
+      </li>
+      </ul>
+</section>
+
+    </div>
+</nav>
+
+
+</header>
+<main role="main" id="main-content" tabindex="-1">      
+
+  <div class="pre-content">
+    
+    <section class="ma__page-banner  ">
+      <style>
+      .ma__page-banner {
+        background-image: url('images/father-and-child-living-mbl_15c16.jpg?itok=9ga5_Um7');
+      }
+
+      @media (min-width: 801px) {
+        .ma__page-banner {
+          background-image: url('images/father-and-child-living_0.jpg');
+        }
+      }
+    </style>
+    <div class="ma__page-banner__container">
+        <div class="ma__page-banner__content" property="mainEntityOfPage">
+              <div class="ma__page-banner__icon">
+          <svg aria-hidden="true" id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="105" height="63" viewBox="0 0 105 63"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M247.782 197.711C247.76600000000002 197.70800000000003 247.75 197.704 247.734 197.70000000000002C247.75 197.704 247.76600000000002 197.70800000000003 247.782 197.711ZM247.904 197.729C247.889 197.728 247.875 197.72500000000002 247.85999999999999 197.723C247.87499999999997 197.72500000000002 247.88899999999998 197.728 247.904 197.729ZM248.024 197.736C248.025 197.736 248.026 197.736 248.027 197.736C248.017 197.736 248.00699999999998 197.73499999999999 247.99699999999999 197.73399999999998C248.00599999999997 197.73499999999999 248.015 197.736 248.02399999999997 197.736ZM247.433 197.582C247.418 197.573 247.403 197.565 247.388 197.55599999999998C247.403 197.56499999999997 247.418 197.57299999999998 247.433 197.582ZM248.246 197.714C248.22400000000002 197.719 248.20100000000002 197.722 248.178 197.725C248.201 197.722 248.224 197.719 248.246 197.714ZM247.663 197.68C247.64600000000002 197.675 247.63000000000002 197.67000000000002 247.614 197.66400000000002C247.63 197.67000000000002 247.64600000000002 197.675 247.663 197.68ZM247.546 197.637C247.53 197.63 247.51399999999998 197.623 247.498 197.616C247.51399999999998 197.62300000000002 247.53 197.63000000000002 247.546 197.637ZM247.324 197.514C247.311 197.50400000000002 247.29700000000003 197.495 247.28300000000002 197.484C247.29700000000003 197.495 247.311 197.50400000000002 247.324 197.514ZM248.567 197.606C248.54600000000002 197.617 248.525 197.62699999999998 248.50400000000002 197.636C248.525 197.627 248.54600000000002 197.617 248.567 197.606ZM248.461 197.653C248.441 197.661 248.42000000000002 197.66899999999998 248.399 197.67499999999998C248.42 197.66899999999998 248.441 197.66099999999997 248.461 197.653ZM248.355 197.689C248.333 197.695 248.31199999999998 197.7 248.29 197.70499999999998C248.31199999999998 197.7 248.333 197.695 248.355 197.689ZM248.672 197.547C248.65 197.56 248.628 197.57399999999998 248.606 197.58599999999998C248.628 197.57399999999998 248.65 197.55999999999997 248.672 197.547ZM248.137 197.73C248.111 197.732 248.085 197.73299999999998 248.058 197.73399999999998C248.08499999999998 197.73299999999998 248.111 197.73199999999997 248.137 197.73ZM249.196 197.125L248.797 197.457C248.767 197.482 248.736 197.505 248.704 197.527C248.73600000000002 197.505 248.767 197.482 248.797 197.457ZM247.248 195.617L269.95099999999996 176.771V176.771L247.24799999999996 195.617C247.08799999999997 195.75 246.97199999999995 195.915 246.89999999999995 196.095C246.97199999999995 195.915 247.08799999999994 195.75 247.24799999999996 195.617ZM276.725 171.148C277.173 170.775 277.827 170.775 278.27500000000003 171.148L283.16700000000003 175.209V175.209L278.27500000000003 171.148C278.05100000000004 170.96099999999998 277.77500000000003 170.868 277.50000000000006 170.868C277.2250000000001 170.868 276.94900000000007 170.96099999999998 276.7250000000001 171.148L271.8330000000001 175.209V175.209ZM247.219 197.43C247.208 197.42000000000002 247.196 197.411 247.186 197.401C247.196 197.411 247.208 197.42000000000002 247.219 197.43ZM246.974 197.13C247.009 197.191 247.04899999999998 197.25 247.096 197.30599999999998C247.097 197.307 247.098 197.307 247.098 197.308C247.098 197.307 247.097 197.307 247.096 197.30599999999998C247.049 197.24999999999997 247.00900000000001 197.19099999999997 246.974 197.13ZM306.641 197.687C306.50300000000004 197.64800000000002 306.37 197.58200000000002 306.24800000000005 197.491C306.37000000000006 197.58200000000002 306.50300000000004 197.64800000000002 306.641 197.687ZM246.834 196.332C246.848 196.251 246.869 196.172 246.9 196.095C246.869 196.172 246.848 196.251 246.834 196.332ZM295.428 185.387L285.049 176.77100000000002V176.77100000000002ZM307.541 197.595C307.676 197.525 307.8 197.429 307.904 197.306C307.951 197.25 307.991 197.191 308.026 197.13000000000002C307.991 197.19100000000003 307.951 197.25000000000003 307.904 197.306C307.8 197.429 307.676 197.525 307.541 197.595ZM328.567 187.746L299.09000000000003 163.276C298.64200000000005 162.904 297.98900000000003 162.904 297.54100000000005 163.276L285.04900000000004 173.64600000000002L286.93100000000004 175.209L298.31500000000005 165.758L321.3670000000001 184.894V214.732H305.38000000000005V217.129H322.57400000000007C323.24100000000004 217.129 323.7820000000001 216.593 323.7820000000001 215.93099999999998V186.89799999999997L327.0180000000001 189.58499999999998C327.2440000000001 189.77299999999997 327.51900000000006 189.86399999999998 327.7920000000001 189.86399999999998C328.1370000000001 189.86399999999998 328.4800000000001 189.718 328.7190000000001 189.43399999999997C329.1470000000001 188.92699999999996 329.0790000000001 188.17099999999996 328.5670000000001 187.74599999999998ZM233.633 214.732V184.894L256.684 165.758L268.069 175.209L269.951 173.64600000000002L257.459 163.276C257.011 162.904 256.358 162.904 255.91 163.276L226.433 187.746C225.921 188.17100000000002 225.85299999999998 188.92700000000002 226.281 189.434C226.709 189.942 227.47 190.01 227.982 189.585L231.218 186.898V215.93099999999998C231.218 216.593 231.759 217.129 232.426 217.129H249.619V214.732ZM249.196 197.125L252.034 194.769V223.80100000000002C252.034 224.46300000000002 252.575 225.00000000000003 253.24099999999999 225.00000000000003H301.758C302.42499999999995 225.00000000000003 302.966 224.46300000000002 302.966 223.80100000000002V194.769L306.20300000000003 197.457C306.218 197.469 306.233 197.48 306.24800000000005 197.49099999999999C306.37000000000006 197.582 306.50300000000004 197.648 306.641 197.68699999999998C306.75100000000003 197.719 306.86400000000003 197.73499999999999 306.97700000000003 197.73499999999999C307.172 197.73499999999999 307.36600000000004 197.68699999999998 307.54100000000005 197.595C307.67600000000004 197.525 307.80000000000007 197.429 307.90400000000005 197.306C307.9510000000001 197.25 307.99100000000004 197.191 308.02600000000007 197.13000000000002C308.31000000000006 196.63500000000002 308.20700000000005 195.99600000000004 307.75200000000007 195.61700000000002L278.2750000000001 171.14800000000002C277.8270000000001 170.77500000000003 277.1730000000001 170.77500000000003 276.7250000000001 171.14800000000002L247.24800000000008 195.61700000000002C247.08800000000008 195.75000000000003 246.97200000000007 195.91500000000002 246.90000000000006 196.09500000000003C246.86900000000006 196.17200000000003 246.84800000000007 196.25100000000003 246.83400000000006 196.33200000000002C246.78700000000006 196.60100000000003 246.83200000000005 196.883 246.97400000000005 197.13000000000002C247.00900000000004 197.19100000000003 247.04900000000004 197.25000000000003 247.09600000000006 197.306C247.09700000000007 197.30700000000002 247.09800000000007 197.30700000000002 247.09800000000007 197.30800000000002C247.12600000000006 197.341 247.15500000000006 197.372 247.18600000000006 197.401C247.19600000000005 197.411 247.20800000000006 197.42000000000002 247.21900000000005 197.43C247.24000000000004 197.448 247.26100000000005 197.467 247.28300000000004 197.484C247.29700000000005 197.495 247.31100000000004 197.50400000000002 247.32400000000004 197.514C247.34500000000003 197.52800000000002 247.36600000000004 197.543 247.38800000000003 197.556C247.40300000000002 197.565 247.41800000000003 197.573 247.43300000000002 197.58200000000002C247.455 197.59400000000002 247.47600000000003 197.60500000000002 247.49800000000002 197.616C247.514 197.62300000000002 247.53000000000003 197.63000000000002 247.54600000000002 197.637C247.568 197.647 247.591 197.656 247.61400000000003 197.664C247.63000000000002 197.67 247.64600000000004 197.67499999999998 247.66300000000004 197.67999999999998C247.68600000000004 197.688 247.71000000000004 197.694 247.73400000000004 197.7C247.75000000000003 197.70399999999998 247.76600000000005 197.708 247.78200000000004 197.71099999999998C247.80800000000005 197.71599999999998 247.83400000000003 197.71999999999997 247.86000000000004 197.72299999999998C247.87500000000003 197.725 247.88900000000004 197.72799999999998 247.90400000000005 197.72899999999998C247.93500000000006 197.73199999999997 247.96600000000007 197.73399999999998 247.99700000000004 197.73399999999998C248.00700000000003 197.73499999999999 248.01700000000005 197.736 248.02700000000004 197.736C248.03800000000004 197.73499999999999 248.04800000000003 197.73499999999999 248.05800000000005 197.73399999999998C248.08500000000004 197.73299999999998 248.11100000000005 197.73199999999997 248.13700000000006 197.73C248.15100000000007 197.72899999999998 248.16500000000005 197.727 248.17800000000005 197.725C248.20100000000005 197.722 248.22400000000005 197.719 248.24600000000007 197.714C248.26100000000005 197.712 248.27600000000007 197.708 248.29000000000008 197.705C248.31200000000007 197.70000000000002 248.33300000000008 197.69500000000002 248.35500000000008 197.68900000000002C248.36900000000009 197.68500000000003 248.38400000000007 197.68000000000004 248.3990000000001 197.675C248.42000000000007 197.669 248.4410000000001 197.661 248.4610000000001 197.65300000000002C248.47600000000008 197.64800000000002 248.4900000000001 197.64200000000002 248.5040000000001 197.63600000000002C248.5250000000001 197.62700000000004 248.5460000000001 197.61700000000002 248.5670000000001 197.60600000000002C248.5800000000001 197.60000000000002 248.5930000000001 197.59300000000002 248.60600000000008 197.586C248.62800000000007 197.574 248.6500000000001 197.56 248.67200000000008 197.54700000000003C248.68200000000007 197.54000000000002 248.69300000000007 197.53400000000002 248.7040000000001 197.52700000000002C248.7360000000001 197.50500000000002 248.76700000000008 197.48200000000003 248.79700000000008 197.45700000000002ZM273.577 222.603V207.324H281.423V222.603ZM277.499 173.629L300.55100000000004 192.765V222.60299999999998H283.838V206.12499999999997C283.838 205.71099999999998 283.627 205.34699999999998 283.305 205.13099999999997C283.209 205.06699999999998 283.103 205.01499999999996 282.98900000000003 204.97999999999996C282.87600000000003 204.94499999999996 282.75500000000005 204.92599999999996 282.63000000000005 204.92599999999996H272.37000000000006C272.03800000000007 204.92599999999996 271.73800000000006 205.05899999999997 271.52000000000004 205.27399999999997C271.51900000000006 205.27499999999998 271.51700000000005 205.27599999999998 271.516 205.27699999999996C271.297 205.49399999999997 271.16200000000003 205.79399999999995 271.16200000000003 206.12499999999997V222.60299999999998H254.44900000000004V192.765Z " fill-opacity="1" transform="matrix(1,0,0,1,-225,-162)"></path></svg>
+        </div>
+            <h1 class="ma__page-banner__title">
+        Living
+              </h1>
+          </div>
+      </div>
+</section>
+  </div>
+
+  <div class="main-content main-content--full">
+    <div class="page-content">
+        <section class="ma__sections-3up">
+    <div class="ma__sections-3up__container">
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1014" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="62" height="78" viewBox="0 0 62 78"><defs id="SvgjsDefs1015"></defs><path id="SvgjsPath1016" d="M284.673 442.603C283.555 442.603 282.443 442.479 281.339 442.231C279.153 441.736 276.846 441.736 274.662 442.231C269.667 443.353 264.476 441.919 259.645 438.07099999999997C252.32699999999997 432.243 247.183 421.929 247.13599999999997 412.98799999999994C247.07399999999996 400.8879999999999 249.47399999999996 393.0899999999999 254.47499999999997 389.15099999999995C260.05499999999995 384.75499999999994 267.965 385.97299999999996 274.23299999999995 387.52399999999994C276.69699999999995 388.13399999999996 279.30299999999994 388.13399999999996 281.768 387.52399999999994C288.03299999999996 385.97099999999995 295.94199999999995 384.75299999999993 301.52599999999995 389.15099999999995C306.52599999999995 393.09099999999995 308.92599999999993 400.888 308.864 412.98799999999994C308.818 421.92799999999994 303.676 432.24099999999993 296.35799999999995 438.06899999999996C292.59299999999996 441.06699999999995 288.6089999999999 442.60299999999995 284.67299999999994 442.60299999999995ZM278 439.265C279.315 439.265 280.631 439.409 281.91 439.698C287.208 440.899 291.817 438.368 294.744 436.037C301.38100000000003 430.75 306.23 421.05199999999996 306.27000000000004 412.976C306.32900000000006 401.728 304.25200000000007 394.602 299.922 391.191C296.25500000000005 388.303 290.84700000000004 387.94899999999996 282.391 390.044C279.517 390.75399999999996 276.481 390.75399999999996 273.61 390.044C265.151 387.94899999999996 259.744 388.304 256.07800000000003 391.191C251.74900000000002 394.602 249.67200000000003 401.72799999999995 249.73000000000002 412.976C249.77100000000002 421.053 254.62 430.753 261.25800000000004 436.039C264.18500000000006 438.368 268.78400000000005 440.892 274.09200000000004 439.698C275.37000000000006 439.409 276.68500000000006 439.265 278.00000000000006 439.265ZM256.211 404.957C256.211 399.231 260.283 394.573 265.28700000000003 394.573C266.004 394.573 266.58400000000006 393.991 266.58400000000006 393.275C266.58400000000006 392.558 266.0040000000001 391.977 265.28700000000003 391.977C258.853 391.977 253.61800000000002 397.799 253.61800000000002 404.957C253.61800000000002 405.674 254.199 406.255 254.91500000000002 406.255C255.63100000000003 406.255 256.211 405.674 256.211 404.957ZM283.562 394.193C284.069 393.686 284.069 392.864 283.562 392.35699999999997C283.05600000000004 391.84999999999997 282.235 391.84999999999997 281.729 392.35699999999997C279.558 394.53 276.026 394.53 273.85499999999996 392.35699999999997C273.349 391.84999999999997 272.52799999999996 391.84999999999997 272.02199999999993 392.35699999999997C271.51499999999993 392.864 271.51499999999993 393.68499999999995 272.02199999999993 394.193C273.61299999999994 395.78499999999997 275.70199999999994 396.58099999999996 277.7919999999999 396.58099999999996C279.8809999999999 396.58099999999996 281.9719999999999 395.78499999999997 283.5619999999999 394.193ZM277.95 393.696C278.666 393.673 279.227 393.074 279.204 392.358C279.135 390.171 278.783 387.782 278.081 385.455L282.91400000000004 384.73499999999996C289.11600000000004 383.80999999999995 293.90200000000004 379.01699999999994 294.826 372.80899999999997L295.872 365.772L288.844 366.82C282.642 367.745 277.855 372.537 276.932 378.745L276.512 381.569C275.075 378.81100000000004 273.004 376.401 270.156 374.88C269.522 374.542 268.737 374.782 268.402 375.414C268.065 376.04699999999997 268.304 376.83299999999997 268.935 377.16999999999996C274.331 380.05099999999993 276.439 386.94699999999995 276.613 392.43999999999994C276.635 393.14199999999994 277.211 393.69699999999995 277.908 393.69699999999995C277.922 393.69699999999995 277.93600000000004 393.69699999999995 277.95 393.69599999999997ZM292.261 372.426C291.50600000000003 377.497 287.596 381.412 282.531 382.167L281.39300000000003 382.337L292.43100000000004 371.289ZM279.246 380.815L279.498 379.128C280.251 374.05699999999996 284.15999999999997 370.143 289.226 369.389L290.913 369.136Z " fill-opacity="1" transform="matrix(1,0,0,1,-247,-365)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_381">
+      <span class="ma__decorative-link">
+  <a 
+    href="381.html" 
+    class="js-clickable-link"
+            >Health &amp; Social Services&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_381">
+              <p class="ma__section-links__description">Massachusetts offers services and resources to keep you and your loved ones healthy, safe, and happy. Find out how we can support you.</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="381.html" 
+    class="js-clickable-link"
+              aria-label="about Health &amp; Social Services"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="apply-masshealth-individual-or-family.html" 
+    class="js-clickable-link"
+            >Apply for MassHealth as an individual or a family&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="apply-snap-benefits-food-stamps.html" 
+    class="js-clickable-link"
+            >Apply for SNAP benefits (food stamps)&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/elders/meals-nutrition/snap-for-seniors.html" 
+    class="js-clickable-link"
+            >Apply for SNAP for seniors&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/eohhs/gov/departments/dta/cash-assistance.html" 
+    class="js-clickable-link"
+            >Learn about cash assistance&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1023" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="104" height="78" viewBox="0 0 104 78"><defs id="SvgjsDefs1024"></defs><path id="SvgjsPath1025" d="M301.632 1006.1C301.632 1006.8100000000001 301.055 1007.39 300.344 1007.39H286.564C285.853 1007.39 285.276 1006.81 285.276 1006.1V978.533C285.276 977.822 285.853 977.245 286.564 977.245H300.344C301.055 977.245 301.632 977.822 301.632 978.533ZM287.852 1004.81H299.056V979.8209999999999H287.852ZM295.223 993.606H293.498C292.786 993.606 292.21 993.029 292.21 992.318C292.21 991.606 292.786 991.029 293.498 991.029H295.223C295.934 991.029 296.511 991.606 296.511 992.318C296.511 993.029 295.934 993.606 295.223 993.606ZM267.633 990.196C266.92199999999997 990.196 266.34499999999997 989.619 266.34499999999997 988.907V971.6510000000001C266.34499999999997 970.9390000000001 266.92199999999997 970.3620000000001 267.633 970.3620000000001C268.344 970.3620000000001 268.921 970.9390000000001 268.921 971.6510000000001V988.907C268.921 989.619 268.344 990.196 267.633 990.196ZM279.697 981.625H255.54500000000002C254.834 981.625 254.257 981.048 254.257 980.337C254.257 979.625 254.834 979.048 255.54500000000002 979.048H279.697C280.408 979.048 280.984 979.625 280.984 980.337C280.984 981.048 280.40799999999996 981.625 279.697 981.625ZM312.474 971.213C312.24399999999997 971.213 312.015 971.1519999999999 311.811 971.03L277.972 950.7189999999999L244.13199999999998 971.03C243.73399999999998 971.268 243.21499999999997 971.275 242.81099999999998 971.0459999999999C242.40699999999998 970.8169999999999 242.134 970.3889999999999 242.134 969.925V961.2969999999999C242.134 960.8439999999999 242.39499999999998 960.425 242.783 960.1919999999999L277.29699999999997 939.4839999999999C277.705 939.2389999999999 278.21999999999997 939.2389999999999 278.628 939.4839999999999L313.121 960.1919999999999C313.50899999999996 960.4249999999998 313.738 960.8439999999999 313.738 961.2969999999999V969.925C313.738 970.389 313.5 970.817 313.096 971.0459999999999C312.899 971.1579999999999 312.692 971.213 312.474 971.213ZM244.709 962.026V967.65L277.285 948.112C277.69300000000004 947.867 278.202 947.867 278.61 948.112L311.16200000000003 967.65V962.026L277.93600000000004 942.091ZM307.298 1007.39H248.645C247.93300000000002 1007.39 247.41400000000002 1006.88 247.41400000000002 1006.16V966.819C247.41400000000002 966.366 247.62300000000002 965.947 248.01100000000002 965.7139999999999L277.32300000000004 948.112C277.73100000000005 947.867 278.23400000000004 947.867 278.641 948.112L307.96500000000003 965.7139999999999C308.353 965.9469999999999 308.586 966.366 308.586 966.819V1006.16C308.586 1006.88 308.01 1007.39 307.298 1007.39ZM249.989 1004.81H306.011V967.548L278 950.719L249.989 967.548ZM281.026 988.968C281.026 989.68 280.45 990.256 279.73900000000003 990.256H255.52700000000004C254.81600000000003 990.256 254.23900000000003 989.68 254.23900000000003 988.968V971.7049999999999C254.23900000000003 970.9939999999999 254.81600000000003 970.4169999999999 255.52700000000004 970.4169999999999H279.73900000000003C280.45000000000005 970.4169999999999 281.026 970.9939999999999 281.026 971.7049999999999ZM256.815 987.68H278.451V972.9939999999999H256.815ZM286.597 1000.56H248.64499999999998C247.933 1000.56 247.35699999999997 999.986 247.35699999999997 999.274C247.35699999999997 998.563 247.93299999999996 997.986 248.64499999999998 997.986H286.597C287.308 997.986 287.885 998.563 287.885 999.274C287.885 999.986 287.308 1000.56 286.597 1000.56ZM307.298 1000.56H300.398C299.687 1000.56 299.11 999.986 299.11 999.274C299.11 998.563 299.687 997.986 300.398 997.986H307.298C308.01 997.986 308.586 998.563 308.586 999.274C308.586 999.986 308.01 1000.56 307.298 1000.56ZM308.586 938.855C308.586 939.566 308.01 940.143 307.298 940.143H286.564C285.853 940.143 285.276 939.566 285.276 938.855V931.898C285.276 931.186 285.853 930.61 286.564 930.61H307.298C308.01 930.61 308.586 931.186 308.586 931.898ZM287.852 937.566H306.01099999999997V933.186H287.852ZM303.848 957.408C303.619 957.408 303.389 957.346 303.18600000000004 957.224L289.38200000000006 948.941C288.9940000000001 948.7080000000001 288.7540000000001 948.289 288.7540000000001 947.836V938.863C288.7540000000001 938.1510000000001 289.33600000000007 937.566 290.0470000000001 937.566H303.84800000000007C304.5590000000001 937.566 305.1090000000001 938.1510000000001 305.1090000000001 938.863V956.12C305.1090000000001 956.5840000000001 304.8730000000001 957.0120000000001 304.4690000000001 957.241C304.2720000000001 957.352 304.0670000000001 957.408 303.8480000000001 957.408ZM291.329 947.107L302.533 953.8439999999999V940.1429999999999H291.329ZM234.844 1007.39H227.94299999999998C227.23199999999997 1007.39 226.67899999999997 1006.88 226.67899999999997 1006.16V988.9069999999999C226.67899999999997 988.6529999999999 226.74299999999997 988.405 226.884 988.1929999999999L230.32799999999997 983.0159999999998C230.56699999999998 982.6569999999998 230.96599999999998 982.4419999999999 231.39699999999996 982.4419999999999C231.82699999999997 982.4419999999999 232.22799999999995 982.6569999999999 232.46699999999996 983.0159999999998L235.89099999999996 988.1929999999999C236.03199999999995 988.4049999999999 236.08099999999996 988.6529999999999 236.08099999999996 988.9069999999999V1006.16C236.08099999999996 1006.88 235.55499999999995 1007.39 234.84399999999997 1007.39ZM229.255 1004.81H233.505V989.298L231.38 986.053L229.255 989.298ZM241.744 1007.39H234.844C234.13299999999998 1007.39 233.505 1006.88 233.505 1006.16V988.9069999999999C233.505 988.6529999999999 233.606 988.405 233.74699999999999 988.1929999999999L237.20999999999998 983.0159999999998C237.44899999999998 982.6569999999998 237.85699999999997 982.4419999999999 238.28799999999998 982.4419999999999C238.718 982.4419999999999 239.124 982.6569999999999 239.362 983.0159999999998L242.816 988.1929999999999C242.957 988.4049999999999 243.035 988.6529999999999 243.035 988.9069999999999V1006.16C243.035 1006.88 242.45499999999998 1007.39 241.744 1007.39ZM236.081 1004.81H240.459V989.298L238.27 986.053L236.08100000000002 989.298ZM248.645 1007.39H241.744C241.033 1007.39 240.459 1006.88 240.459 1006.16V988.9069999999999C240.459 988.6529999999999 240.53300000000002 988.405 240.674 988.1929999999999L244.124 983.0159999999998C244.363 982.6569999999998 244.76399999999998 982.4419999999999 245.195 982.4419999999999C245.625 982.4419999999999 246.027 982.6569999999999 246.266 983.0159999999998L249.745 988.1929999999999C249.886 988.4049999999999 249.989 988.6529999999999 249.989 988.9069999999999V1006.16C249.989 1006.88 249.356 1007.39 248.645 1007.39ZM243.035 1004.81H247.414V989.298L245.224 986.053L243.035 989.298ZM314.199 1007.39H307.298C306.587 1007.39 306.011 1006.88 306.011 1006.16V988.9069999999999C306.011 988.6529999999999 306.086 988.405 306.22700000000003 988.1929999999999L309.677 983.0159999999998C309.916 982.6569999999998 310.31800000000004 982.4419999999999 310.749 982.4419999999999C311.17900000000003 982.4419999999999 311.581 982.6569999999999 311.82000000000005 983.0159999999998L315.297 988.1929999999999C315.43800000000005 988.4049999999999 315.54100000000005 988.6529999999999 315.54100000000005 988.9069999999999V1006.16C315.54100000000005 1006.88 314.9100000000001 1007.39 314.19900000000007 1007.39ZM308.586 1004.81H312.96500000000003V989.298L310.776 986.053L308.586 989.298ZM321.099 1007.39H314.199C313.488 1007.39 312.96500000000003 1006.88 312.96500000000003 1006.16V988.9069999999999C312.96500000000003 988.6529999999999 313.01300000000003 988.405 313.15400000000005 988.1929999999999L316.59100000000007 983.0159999999998C316.83000000000004 982.6569999999998 317.2250000000001 982.4419999999999 317.65600000000006 982.4419999999999C318.08700000000005 982.4419999999999 318.48500000000007 982.6569999999999 318.72400000000005 983.0159999999998L322.16200000000003 988.1929999999999C322.30300000000005 988.4049999999999 322.36600000000004 988.6529999999999 322.36600000000004 988.9069999999999V1006.16C322.36600000000004 1006.88 321.81100000000004 1007.39 321.09900000000005 1007.39ZM315.541 1004.81H319.79V989.298L317.666 986.053L315.541 989.298ZM328 1007.39H321.099C320.388 1007.39 319.78999999999996 1006.88 319.78999999999996 1006.16V988.9069999999999C319.78999999999996 988.6529999999999 319.876 988.405 320.01699999999994 988.1929999999999L323.47299999999996 983.0159999999998C323.71199999999993 982.6569999999998 324.11599999999993 982.4419999999999 324.54699999999997 982.4419999999999C324.977 982.4419999999999 325.381 982.6569999999999 325.61999999999995 983.0159999999998L329.08699999999993 988.1929999999999C329.22799999999995 988.4049999999999 329.3209999999999 988.6529999999999 329.3209999999999 988.9069999999999V1006.16C329.3209999999999 1006.88 328.7109999999999 1007.39 327.9999999999999 1007.39ZM322.366 1004.81H326.745V989.298L324.555 986.053L322.366 989.298ZM281.422 990.256H253.82000000000002C253.109 990.256 252.532 989.68 252.532 988.968C252.532 988.257 253.109 987.68 253.82000000000002 987.68H281.422C282.13300000000004 987.68 282.71000000000004 988.257 282.71000000000004 988.968C282.71000000000004 989.68 282.13300000000004 990.256 281.422 990.256Z " fill-opacity="1" transform="matrix(1,0,0,1,-226,-930)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_1456">
+      <span class="ma__decorative-link">
+  <a 
+    href="1456.html" 
+    class="js-clickable-link"
+            >Housing &amp; Property&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_1456">
+              <p class="ma__section-links__description">Do you own or rent property in Massachusetts? Find resources for tenants and landlords, homeowners, developers, and more. </p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="1456.html" 
+    class="js-clickable-link"
+              aria-label="about Housing &amp; Property"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="find-unclaimed-property.html" 
+    class="js-clickable-link"
+            >Find unclaimed property&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/ocabr/consumer-rights-and-resources/housing/tenant-and-landlord/tenant-rights.html" 
+    class="js-clickable-link"
+            >Learn about tenant rights and responsibilities&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/hed/housing/ph-manage/" 
+    class="js-clickable-link"
+            >Find public housing information&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="https://hedfuel.azurewebsites.net/iShelters.aspx" 
+    class="js-clickable-link"
+            >Find emergency housing&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1020" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="87" height="78" viewBox="0 0 87 78"><defs id="SvgjsDefs1021"></defs><path id="SvgjsPath1022" d="M277.532 604.112L287.691 609.932C287.905 610.0550000000001 288.149 610.12 288.395 610.12C288.90299999999996 610.12 289.375 609.846 289.627 609.406C290.016 608.727 289.764 607.858 289.083 607.468L278.90400000000005 601.6469999999999V589.9449999999999C278.90400000000005 589.1619999999999 278.28200000000004 588.526 277.50000000000006 588.526C276.7180000000001 588.526 276.09600000000006 589.1619999999999 276.09600000000006 589.9449999999999V601.66L265.96000000000004 607.468C265.28200000000004 607.857 265.04600000000005 608.726 265.43600000000004 609.406C265.68800000000005 609.846 266.16 610.12 266.66900000000004 610.12C266.915 610.12 267.15900000000005 610.055 267.37300000000005 609.932ZM257.692 615.455L257.644 615.417V610.649L257.662 610.61C258.019 610.265 258.49199999999996 609.647 258.77799999999996 608.6560000000001C258.81699999999995 608.5200000000001 258.83199999999994 608.393 258.83299999999997 608.2760000000001C258.84599999999995 607.1030000000001 258.90599999999995 601.196 258.82899999999995 600.0600000000001C258.6809999999999 597.85 256.674 595.147 254.70099999999996 594.499L254.68699999999995 594.493C253.96199999999996 594.163 253.02699999999996 593.956 251.91099999999994 593.8770000000001L251.87599999999995 593.873C251.86099999999996 593.8710000000001 251.84599999999995 593.869 251.83099999999996 593.868C251.74899999999997 593.8620000000001 251.44999999999996 593.8430000000001 251.02099999999996 593.845C250.59099999999995 593.8430000000001 250.28499999999997 593.8620000000001 250.20199999999997 593.868C250.18599999999998 593.869 250.17099999999996 593.8710000000001 250.15599999999998 593.873L250.12699999999998 593.8770000000001C249.004 593.956 248.07099999999997 594.163 247.34499999999997 594.493L247.33199999999997 594.499C245.35899999999995 595.147 243.35299999999995 597.85 243.20399999999995 600.0600000000001C243.12499999999994 601.24 243.19299999999996 607.5590000000001 243.20099999999996 608.2760000000001L243.20199999999997 608.335C243.20199999999997 608.4480000000001 243.20199999999997 608.5550000000001 243.23099999999997 608.653C243.29399999999995 608.8720000000001 243.68699999999995 609.846 244.35299999999998 610.619L244.40699999999998 610.6560000000001V615.417L244.31499999999997 615.455C242.47599999999997 616.437 236.31699999999998 619.865 234.33499999999998 622.711C234.188 622.922 234.111 623.187 234.111 623.523V628.971C234.111 629.754 234.732 630.39 235.515 630.39C236.297 630.39 236.91899999999998 629.754 236.91899999999998 628.971V624.003L236.962 623.966C238.903 621.697 244.486 618.556 246.469 617.537C246.929 617.301 247.215 616.8290000000001 247.215 616.274V609.962C247.215 609.426 246.942 608.96 246.495 608.716C246.28 608.599 246.061 608.096 246.037 608.039L246.025 608.014L246.024 607.988C245.994 605.254 245.976 601.0450000000001 246.03 600.2510000000001C246.104 599.1490000000001 247.456 597.4060000000001 248.228 597.1920000000001C248.31400000000002 597.1680000000001 248.398 597.1360000000001 248.47500000000002 597.0980000000001C249.20100000000002 596.7420000000001 250.44800000000004 596.69 250.95100000000002 596.6840000000001C251.366 596.6840000000001 252.77700000000002 596.7160000000001 253.556 597.0980000000001C253.63400000000001 597.1370000000001 253.717 597.1680000000001 253.80200000000002 597.1920000000001C254.57200000000003 597.4060000000002 255.92300000000003 599.1490000000001 255.997 600.2500000000001C256.053 601.0950000000001 256.021 605.6810000000002 255.997 607.9890000000001L255.996 608.0160000000002L255.98600000000002 608.0400000000002C255.894 608.2580000000002 255.66100000000003 608.6170000000002 255.48000000000002 608.7160000000002C255.01800000000003 608.9680000000002 254.70200000000003 609.4450000000003 254.70200000000003 609.9620000000002V616.2740000000002C254.70200000000003 616.8060000000003 255.03000000000003 617.2900000000002 255.51100000000002 617.5370000000003C255.59700000000004 617.5800000000003 257.62800000000004 618.6100000000002 259.83200000000005 619.9730000000003C262.249 621.4660000000003 264.01700000000005 622.8090000000003 265.10100000000006 623.9650000000003L265.13200000000006 624.0030000000003V628.9710000000002C265.13200000000006 629.7540000000002 265.75300000000004 630.3900000000002 266.53600000000006 630.3900000000002C267.31800000000004 630.3900000000002 267.94000000000005 629.7540000000002 267.94000000000005 628.9710000000002V623.5230000000003C267.94000000000005 623.1910000000003 267.82400000000007 622.8980000000003 267.6940000000001 622.7110000000002C265.8010000000001 619.9950000000002 260.0810000000001 616.7320000000002 257.69200000000006 615.4550000000003ZM310.766 615.455L310.72700000000003 615.417V610.6560000000001V610.619C311.396 609.8430000000001 311.761 608.856 311.819 608.653C311.849 608.549 311.856 608.432 311.857 608.2760000000001C311.858 608.206 311.92900000000003 601.3000000000001 311.846 600.0600000000001C311.697 597.85 309.688 595.148 307.714 594.499L307.699 594.493C306.974 594.163 306.039 593.956 304.921 593.8770000000001L304.88599999999997 593.873C304.871 593.8710000000001 304.85499999999996 593.869 304.84 593.868C304.758 593.8620000000001 304.46099999999996 593.8430000000001 304.03 593.845C303.59999999999997 593.8430000000001 303.294 593.8620000000001 303.21 593.868C303.195 593.869 303.18 593.8710000000001 303.164 593.873L303.13599999999997 593.8770000000001C302.01199999999994 593.956 301.07899999999995 594.163 300.354 594.493L300.34 594.499C298.36699999999996 595.147 296.361 597.85 296.212 600.0600000000001C296.133 601.24 296.20099999999996 607.5590000000001 296.209 608.2760000000001C296.211 608.3990000000001 296.23 608.5260000000001 296.267 608.653C296.499 609.46 296.906 610.115 297.418 610.61L297.49 610.649V615.417L297.38800000000003 615.455C295.00000000000006 616.7320000000001 289.23900000000003 619.995 287.34600000000006 622.711C287.21600000000007 622.898 287.06000000000006 623.191 287.06000000000006 623.523V628.971C287.06000000000006 629.754 287.6820000000001 630.39 288.46400000000006 630.39C289.24700000000007 630.39 289.86800000000005 629.754 289.86800000000005 628.971V624.003L289.90100000000007 623.966C291.7300000000001 621.827 296.9720000000001 618.825 299.4800000000001 617.537C299.9670000000001 617.287 300.29800000000006 616.791 300.29800000000006 616.274V609.962C300.29800000000006 609.443 299.99800000000005 608.965 299.5400000000001 608.716C299.36500000000007 608.62 299.15600000000006 608.258 299.0640000000001 608.039L299.0490000000001 608.014L299.0470000000001 607.988C299.0220000000001 605.6790000000001 298.9890000000001 601.09 299.0460000000001 600.25C299.1190000000001 599.149 300.4690000000001 597.406 301.2400000000001 597.192C301.3240000000001 597.169 301.4060000000001 597.1370000000001 301.4850000000001 597.098C302.2120000000001 596.742 303.45800000000014 596.6899999999999 303.96000000000015 596.684C304.37500000000017 596.684 305.78500000000014 596.716 306.56400000000014 597.098C306.64300000000014 597.137 306.7260000000001 597.168 306.8100000000001 597.192C307.5800000000001 597.4060000000001 308.9310000000001 599.149 309.0050000000001 600.251C309.0620000000001 601.095 309.0300000000001 605.682 309.0050000000001 607.989L309.00400000000013 608.015L308.99400000000014 608.04C308.92200000000014 608.209 308.7160000000001 608.612 308.5260000000001 608.716C308.08100000000013 608.958 307.7860000000001 609.436 307.7860000000001 609.962V616.274C307.7860000000001 616.815 308.09300000000013 617.299 308.55700000000013 617.537C308.5750000000001 617.546 310.5740000000001 618.585 312.8200000000001 619.9730000000001C316.43200000000013 622.205 317.6490000000001 623.4390000000001 318.05200000000013 623.9760000000001L318.08100000000013 624.0120000000001V628.971C318.08100000000013 629.754 318.70300000000015 630.39 319.4850000000001 630.39C320.26800000000014 630.39 320.8890000000001 629.754 320.8890000000001 628.971V623.523C320.8890000000001 623.187 320.85200000000015 622.922 320.7050000000001 622.711C318.72300000000007 619.865 312.6040000000001 616.437 310.7660000000001 615.455ZM261.856 590.157C262.638 590.157 263.26 589.5210000000001 263.26 588.738V583.7700000000001L263.29699999999997 583.7330000000001C265.126 581.595 270.366 578.5920000000001 272.87399999999997 577.3040000000001C273.361 577.0540000000001 273.68899999999996 576.5580000000001 273.68899999999996 576.041V569.729C273.68899999999996 569.224 273.37899999999996 568.735 272.917 568.4830000000001C272.75899999999996 568.397 272.544 568.071 272.43199999999996 567.806L272.419 567.7810000000001L272.418 567.7550000000001C272.40500000000003 566.6300000000001 272.347 560.9660000000001 272.411 560.017C272.485 558.9150000000001 273.834 557.172 274.603 556.9590000000001C274.68600000000004 556.936 274.766 556.9050000000001 274.84700000000004 556.865C275.61100000000005 556.49 276.97700000000003 556.453 277.37800000000004 556.45C277.783 556.452 279.15700000000004 556.488 279.92600000000004 556.865C280.00500000000005 556.904 280.08700000000005 556.936 280.17100000000005 556.9590000000001C280.94200000000006 557.1730000000001 282.29200000000003 558.916 282.36600000000004 560.018C282.42300000000006 560.863 282.391 565.4490000000001 282.36600000000004 567.7560000000001L282.36500000000007 567.7830000000001L282.3550000000001 567.8070000000001C282.2610000000001 568.0280000000001 282.0130000000001 568.3860000000001 281.8350000000001 568.4830000000002C281.3680000000001 568.7380000000002 281.0430000000001 569.2270000000002 281.0430000000001 569.7290000000002V576.0410000000002C281.0430000000001 576.5580000000002 281.38100000000014 577.0540000000002 281.8680000000001 577.3040000000002C284.3760000000001 578.5920000000002 289.6070000000001 581.5940000000002 291.4360000000001 583.7330000000002L291.47300000000007 583.7700000000002V588.7380000000002C291.47300000000007 589.5210000000002 292.09400000000005 590.1570000000002 292.87700000000007 590.1570000000002C293.65900000000005 590.1570000000002 294.28100000000006 589.5210000000002 294.28100000000006 588.7380000000002V583.2900000000002C294.28100000000006 582.9580000000002 294.1480000000001 582.6650000000002 294.0180000000001 582.4780000000002C292.1260000000001 579.7620000000002 286.4050000000001 576.4990000000001 284.0160000000001 575.2220000000002L283.98500000000007 575.1840000000002V570.4160000000002L283.99700000000007 570.3770000000002C284.7270000000001 569.6710000000002 285.02900000000005 568.7740000000002 285.1310000000001 568.4200000000002C285.1720000000001 568.2780000000001 285.19200000000006 568.1600000000002 285.1940000000001 568.0430000000002L285.1910000000001 567.9360000000003C285.22100000000006 565.3340000000003 285.25900000000007 560.8200000000003 285.19200000000006 559.8270000000002C285.04400000000004 557.6160000000002 283.03900000000004 554.9140000000002 281.06700000000006 554.2660000000002L281.05300000000005 554.2600000000002C280.32800000000003 553.9300000000002 279.39400000000006 553.7230000000002 278.27900000000005 553.6440000000002L278.24300000000005 553.6400000000002C278.22900000000004 553.6380000000003 278.21400000000006 553.6360000000002 278.19900000000007 553.6350000000002C278.1170000000001 553.6290000000002 277.8180000000001 553.6100000000002 277.39000000000004 553.6120000000002C276.95700000000005 553.6100000000002 276.653 553.6290000000002 276.571 553.6350000000002C276.555 553.6360000000002 276.54 553.6380000000003 276.524 553.6400000000002L276.497 553.6440000000002C275.373 553.7230000000002 274.44 553.9300000000002 273.714 554.2600000000002L273.701 554.2660000000002C271.728 554.9140000000002 269.72200000000004 557.6170000000002 269.57300000000004 559.8270000000002C269.494 561.0070000000002 269.562 567.3260000000002 269.57000000000005 568.0430000000002C269.571 568.1580000000002 269.607 568.2820000000003 269.64200000000005 568.4020000000003L269.64700000000005 568.4200000000003C269.77500000000003 568.8630000000003 270.119 569.7050000000003 270.814 570.3770000000003L270.88100000000003 570.4160000000003V575.1840000000003L270.78400000000005 575.2220000000003C268.3960000000001 576.4990000000004 262.63200000000006 579.7620000000003 260.74000000000007 582.4780000000003C260.61000000000007 582.6650000000003 260.45200000000006 582.9580000000003 260.45200000000006 583.2900000000003V588.7380000000003C260.45200000000006 589.5210000000003 261.07300000000004 590.1570000000003 261.85600000000005 590.1570000000003Z " fill-opacity="1" transform="matrix(1,0,0,1,-234,-553)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_751">
+      <span class="ma__decorative-link">
+  <a 
+    href="751.html" 
+    class="js-clickable-link"
+            >Families &amp; Children&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_751">
+              <p class="ma__section-links__description">The Commonwealth is committed to supporting safe, healthy, happy families. Find information ranging from how to get a marriage certificate to tips on raising active children.</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="751.html" 
+    class="js-clickable-link"
+              aria-label="about Families &amp; Children"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="adopting-child-massachusetts.html" 
+    class="js-clickable-link"
+            >Adopting a child in Massachusetts&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="becoming-foster-parent-massachusetts.html" 
+    class="js-clickable-link"
+            >Becoming a foster parent in Massachusetts&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="apply-masshealth-individual-or-family.html" 
+    class="js-clickable-link"
+            >Apply for MassHealth as an individual or a family&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="get-child-support-order.html" 
+    class="js-clickable-link"
+            >Get a child support order&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1026" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="83" height="83" viewBox="0 0 83 83"><defs id="SvgjsDefs1027"></defs><path id="SvgjsPath1028" d="M309.028 1194.62H245.97200000000004C245.39000000000004 1194.62 244.87200000000004 1194.26 244.67900000000003 1193.7099999999998C244.48600000000002 1193.1599999999999 244.66200000000003 1192.5499999999997 245.11600000000004 1192.1799999999998L258.82400000000007 1181.2199999999998C259.06700000000006 1181.0199999999998 259.3690000000001 1180.9199999999998 259.68000000000006 1180.9199999999998H293.94900000000007C294.2390000000001 1180.9199999999998 294.5210000000001 1181.0099999999998 294.75500000000005 1181.1799999999998L309.83400000000006 1192.1399999999999C310.3140000000001 1192.4899999999998 310.51500000000004 1193.11 310.3310000000001 1193.6799999999998C310.1480000000001 1194.2399999999998 309.6210000000001 1194.62 309.0280000000001 1194.62ZM249.88 1191.88H304.812L293.503 1183.66H260.161ZM264 1193V1182H267V1193ZM287 1193V1182H290V1193ZM253 1189V1186H301V1189ZM295.32 1183.66H259.68C256.657 1183.66 254.197 1181.2 254.197 1178.17V1165.8400000000001C254.197 1165.0800000000002 254.811 1164.4700000000003 255.568 1164.4700000000003H299.432C300.189 1164.4700000000003 300.803 1165.0800000000002 300.803 1165.8400000000001V1178.17C300.803 1181.2 298.343 1183.66 295.32 1183.66ZM256.938 1167.21V1178.17C256.938 1179.69 258.168 1180.92 259.68 1180.92H295.32C296.832 1180.92 298.062 1179.69 298.062 1178.17V1167.21ZM299.432 1145.28H255.568C254.811 1145.28 254.197 1144.66 254.197 1143.91V1131.5700000000002C254.197 1128.5400000000002 256.657 1126.0900000000001 259.68 1126.0900000000001H295.32C298.343 1126.0900000000001 300.803 1128.5400000000002 300.803 1131.5700000000002V1143.91C300.803 1144.66 300.189 1145.28 299.432 1145.28ZM256.938 1142.53H298.062V1131.57C298.062 1130.06 296.832 1128.83 295.32 1128.83H259.68C258.168 1128.83 256.938 1130.06 256.938 1131.57ZM299.432 1167.21H255.568C254.811 1167.21 254.197 1166.5900000000001 254.197 1165.8400000000001V1143.91C254.197 1143.15 254.811 1142.53 255.568 1142.53H299.432C300.189 1142.53 300.803 1143.1499999999999 300.803 1143.91V1165.8400000000001C300.803 1166.5900000000001 300.189 1167.21 299.432 1167.21ZM256.938 1164.47H298.062V1145.28H256.938ZM287.095 1128.83H267.90500000000003C267.46400000000006 1128.83 267.05 1128.62 266.793 1128.26C266.535 1127.9 266.46500000000003 1127.44 266.604 1127.02L269.346 1118.8C269.532 1118.24 270.056 1117.86 270.646 1117.86H284.35400000000004C284.944 1117.86 285.468 1118.24 285.65400000000005 1118.8L288.3960000000001 1127.02C288.5350000000001 1127.44 288.4650000000001 1127.9 288.20700000000005 1128.26C287.95000000000005 1128.62 287.53600000000006 1128.83 287.095 1128.83ZM269.806 1126.09H285.193L283.366 1120.6H271.634ZM263.792 1178.17C261.525 1178.17 259.67999999999995 1176.3300000000002 259.67999999999995 1174.0600000000002C259.67999999999995 1171.7900000000002 261.525 1169.9500000000003 263.792 1169.9500000000003C266.05999999999995 1169.9500000000003 267.905 1171.7900000000002 267.905 1174.0600000000002C267.905 1176.3300000000002 266.05999999999995 1178.17 263.792 1178.17ZM263.792 1172.69C263.037 1172.69 262.42199999999997 1173.31 262.42199999999997 1174.06C262.42199999999997 1174.82 263.037 1175.4299999999998 263.792 1175.4299999999998C264.54799999999994 1175.4299999999998 265.16299999999995 1174.82 265.16299999999995 1174.06C265.16299999999995 1173.31 264.54799999999994 1172.69 263.792 1172.69ZM291.208 1178.17C288.94000000000005 1178.17 287.095 1176.3300000000002 287.095 1174.0600000000002C287.095 1171.7900000000002 288.94000000000005 1169.9500000000003 291.208 1169.9500000000003C293.475 1169.9500000000003 295.32000000000005 1171.7900000000002 295.32000000000005 1174.0600000000002C295.32000000000005 1176.3300000000002 293.475 1178.17 291.208 1178.17ZM291.208 1172.69C290.45200000000006 1172.69 289.83700000000005 1173.31 289.83700000000005 1174.06C289.83700000000005 1174.82 290.45200000000006 1175.4299999999998 291.208 1175.4299999999998C291.963 1175.4299999999998 292.57800000000003 1174.82 292.57800000000003 1174.06C292.57800000000003 1173.31 291.963 1172.69 291.208 1172.69ZM287.095 1139.79H267.90500000000003C267.148 1139.79 266.53400000000005 1139.18 266.53400000000005 1138.42V1132.94C266.53400000000005 1132.18 267.148 1131.5700000000002 267.90500000000003 1131.5700000000002H287.095C287.85200000000003 1131.5700000000002 288.466 1132.18 288.466 1132.94V1138.42C288.466 1139.18 287.85200000000003 1139.79 287.095 1139.79ZM269.275 1137.05H285.72499999999997V1134.31H269.275ZM247.314 1185.03C246.894 1185.03 246.48 1184.83 246.21099999999998 1184.47C240.053 1176.15 236.37699999999998 1164.57 236.37699999999998 1153.5C236.37699999999998 1142.52 240.65499999999997 1132.19 248.42199999999997 1124.42C256.18899999999996 1116.65 266.51599999999996 1112.38 277.49999999999994 1112.38C288.4839999999999 1112.38 298.8109999999999 1116.65 306.5779999999999 1124.42C314.3449999999999 1132.19 318.62299999999993 1142.52 318.62299999999993 1153.5C318.62299999999993 1158.71 317.54799999999994 1164.37 315.51399999999995 1169.86C313.54799999999994 1175.1699999999998 310.7289999999999 1180.2299999999998 307.36299999999994 1184.5C306.89399999999995 1185.1 306.0319999999999 1185.2 305.43699999999995 1184.73C304.84299999999996 1184.26 304.74099999999993 1183.4 305.21 1182.81C308.40099999999995 1178.76 311.075 1173.95 312.943 1168.9099999999999C314.865 1163.7199999999998 315.882 1158.3899999999999 315.882 1153.4999999999998C315.882 1143.2499999999998 311.889 1133.6099999999997 304.64 1126.3599999999997C297.39 1119.1099999999997 287.752 1115.1199999999997 277.5 1115.1199999999997C267.248 1115.1199999999997 257.61 1119.1099999999997 250.36 1126.3599999999997C243.11100000000002 1133.6099999999997 239.11800000000002 1143.2499999999998 239.11800000000002 1153.4999999999998C239.11800000000002 1163.9999999999998 242.59400000000002 1174.9699999999998 248.41500000000002 1182.8399999999997C248.865 1183.4499999999996 248.73700000000002 1184.3099999999997 248.12800000000001 1184.7599999999998C247.883 1184.9399999999998 247.597 1185.0299999999997 247.31400000000002 1185.0299999999997Z " fill-opacity="1" transform="matrix(1,0,0,1,-236,-1112)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_2646">
+      <span class="ma__decorative-link">
+  <a 
+    href="2646.html" 
+    class="js-clickable-link"
+            >Transportation&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_2646">
+              <p class="ma__section-links__description">Need to renew your driver&#039;s license? Look up information on a flight? Find answers here to all your questions about getting around in Massachusetts.</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="2646.html" 
+    class="js-clickable-link"
+              aria-label="about Transportation"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="renew-your-drivers-license.html" 
+    class="js-clickable-link"
+            >Renew your driver&#039;s license&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="renew-your-vehicle-registration.html" 
+    class="js-clickable-link"
+            >Renew your vehicle registration&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="change-your-address-rmv.html" 
+    class="js-clickable-link"
+            >Change your address with the RMV&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="pay-your-traffic-ticket.html" 
+    class="js-clickable-link"
+            >Pay your traffic ticket&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1035" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="83" height="78" viewBox="0 0 83 78"><defs id="SvgjsDefs1036"></defs><path id="SvgjsPath1037" d="M244.416 1687.11C241.507 1687.11 238.901 1685.61 237.446 1683.09C235.99099999999999 1680.57 235.99099999999999 1677.56 237.445 1675.04L244.416 1662.97L251.387 1675.04C252.841 1677.56 252.841 1680.57 251.386 1683.09C249.93099999999998 1685.61 247.325 1687.11 244.416 1687.11ZM244.416 1667.62L239.46 1676.1999999999998C238.42700000000002 1677.9899999999998 238.42700000000002 1680.1299999999999 239.461 1681.9199999999998C240.496 1683.7199999999998 242.348 1684.7899999999997 244.41600000000003 1684.7899999999997C246.48400000000004 1684.7899999999997 248.336 1683.7199999999998 249.37000000000003 1681.9199999999998C250.40500000000003 1680.1299999999999 250.40500000000003 1677.9899999999998 249.37100000000004 1676.1999999999998ZM310.611 1659.25C307.702 1659.25 305.096 1657.74 303.64099999999996 1655.22C302.186 1652.7 302.186 1649.69 303.64 1647.17L310.611 1635.1000000000001L317.582 1647.17C319.037 1649.69 319.036 1652.7 317.581 1655.22C316.12600000000003 1657.74 313.521 1659.25 310.611 1659.25ZM310.611 1639.76L305.656 1648.34C304.622 1650.1299999999999 304.622 1652.27 305.657 1654.06C306.691 1655.85 308.543 1656.9199999999998 310.611 1656.9199999999998C312.679 1656.9199999999998 314.531 1655.85 315.566 1654.06C316.59999999999997 1652.27 316.601 1650.1299999999999 315.56699999999995 1648.34ZM277.495 1689.59C276.85200000000003 1689.59 276.358 1689.07 276.358 1688.4199999999998V1651.4099999999999H277.514C280.67400000000004 1651.4099999999999 283.245 1648.82 283.245 1645.6599999999999C283.245 1642.4999999999998 280.674 1639.8999999999999 277.514 1639.8999999999999H276.358V1633.2599999999998C276.358 1632.6199999999997 276.85200000000003 1632.0999999999997 277.495 1632.0999999999997C278.138 1632.0999999999997 278.632 1632.6199999999997 278.632 1633.2599999999998V1637.6999999999998C282.512 1638.2599999999998 285.528 1641.62 285.528 1645.6699999999998C285.528 1649.7199999999998 282.512 1653.08 278.632 1653.6499999999999V1688.4199999999998C278.632 1689.07 278.138 1689.59 277.495 1689.59ZM277.514 1653.73C273.07 1653.73 269.455 1650.1200000000001 269.455 1645.67C269.455 1641.23 273.07 1637.6100000000001 277.514 1637.6100000000001C281.957 1637.6100000000001 285.57300000000004 1641.23 285.57300000000004 1645.67C285.57300000000004 1650.1200000000001 281.95700000000005 1653.73 277.514 1653.73ZM277.514 1639.94C274.353 1639.94 271.782 1642.51 271.782 1645.67C271.782 1648.8300000000002 274.353 1651.4 277.514 1651.4C280.67400000000004 1651.4 283.245 1648.8300000000002 283.245 1645.67C283.245 1642.51 280.674 1639.94 277.514 1639.94ZM244.416 1660.63C243.954 1660.63 243.518 1660.3500000000001 243.33599999999998 1659.9C243.09699999999998 1659.3000000000002 243.38699999999997 1658.6200000000001 243.98399999999998 1658.38L271.911 1647.21L272.387 1648.18C273.363 1650.17 275.328 1651.4 277.514 1651.4C280.67400000000004 1651.4 283.245 1648.8300000000002 283.245 1645.67C283.245 1645.14 283.151 1644.6000000000001 282.949 1643.96L282.635 1642.96L310.14099999999996 1630.82C310.729 1630.56 311.41599999999994 1630.82 311.676 1631.4099999999999C311.935 1631.9999999999998 311.669 1632.6899999999998 311.08099999999996 1632.9499999999998L285.431 1644.2699999999998C285.526 1644.7499999999998 285.573 1645.2199999999998 285.573 1645.6699999999998C285.573 1650.12 281.957 1653.7299999999998 277.51399999999995 1653.7299999999998C274.79599999999994 1653.7299999999998 272.32399999999996 1652.3799999999999 270.83899999999994 1650.1499999999999L244.84799999999996 1660.54C244.70599999999996 1660.6 244.55999999999995 1660.6299999999999 244.41599999999997 1660.6299999999999ZM244.448 1666.14C243.806 1666.14 243.311 1665.6200000000001 243.311 1664.98V1659.46C243.311 1658.82 243.806 1658.3 244.448 1658.3C245.091 1658.3 245.585 1658.82 245.585 1659.46V1664.98C245.585 1665.6200000000001 245.091 1666.14 244.448 1666.14ZM310.609 1638.56C309.966 1638.56 309.405 1638.04 309.405 1637.3999999999999V1631.8799999999999C309.405 1631.2399999999998 309.96599999999995 1630.7199999999998 310.609 1630.7199999999998C311.251 1630.7199999999998 311.813 1631.2399999999998 311.813 1631.8799999999999V1637.3999999999999C311.813 1638.04 311.251 1638.56 310.609 1638.56ZM317.507 1652.35H303.716C303.07300000000004 1652.35 302.552 1651.85 302.552 1651.2099999999998C302.552 1650.5699999999997 303.07300000000004 1650.0699999999997 303.716 1650.0699999999997H317.507C318.149 1650.0699999999997 318.67 1650.5699999999997 318.67 1651.2099999999998C318.67 1651.85 318.149 1652.35 317.507 1652.35ZM251.311 1679.91H237.52100000000002C236.87800000000001 1679.91 236.35700000000003 1679.42 236.35700000000003 1678.77C236.35700000000003 1678.1299999999999 236.87800000000001 1677.6399999999999 237.52100000000002 1677.6399999999999H251.311C251.954 1677.6399999999999 252.475 1678.1299999999999 252.475 1678.77C252.475 1679.42 251.954 1679.91 251.311 1679.91ZM299.37 1707.47H255.62V1706.3500000000001C255.62 1699.63 261.135 1694.0900000000001 267.86 1694.0900000000001H287.16700000000003C293.89200000000005 1694.0900000000001 299.37 1699.63 299.37 1706.3500000000001ZM258.059 1705.2H296.968C296.39000000000004 1700.25 292.21500000000003 1696.5 287.16700000000003 1696.5H267.86C262.812 1696.5 258.637 1700.25 258.059 1705.2ZM286.927 1696.5H268.06300000000005V1687.27H286.927ZM270.337 1694.09H284.65299999999996V1689.54H270.337Z " fill-opacity="1" transform="matrix(1,0,0,1,-236,-1630)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_646">
+      <span class="ma__decorative-link">
+  <a 
+    href="646.html" 
+    class="js-clickable-link"
+            >Legal &amp; Justice&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_646">
+              <p class="ma__section-links__description">Need to request a form or solve a legal dispute? Learn how to navigate the Massachusetts court system, access legal documents, and more. 
+</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="646.html" 
+    class="js-clickable-link"
+              aria-label="about Legal &amp; Justice"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="respond-jury-duty-summons.html" 
+    class="js-clickable-link"
+            >Respond to a jury duty summons&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="get-child-support-order.html" 
+    class="js-clickable-link"
+            >Get a child support order&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="adopting-child-massachusetts.html" 
+    class="js-clickable-link"
+            >Adopting a child in Massachusetts&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="report-child-abuse-and-neglect.html" 
+    class="js-clickable-link"
+            >Report child abuse and neglect&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1032" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="58" height="78" viewBox="0 0 58 78"><defs id="SvgjsDefs1033"></defs><path id="SvgjsPath1034" d="M257.544 1530.79H275.443V1533.35H257.544ZM293.342 1530.79H298.45599999999996V1533.35H293.342ZM293.342 1520.55H298.45599999999996V1523.11H293.342ZM293.342 1510.32H298.45599999999996V1512.8799999999999H293.342ZM293.342 1500.08H298.45599999999996V1502.6399999999999H293.342ZM257.544 1520.55H280.55699999999996V1523.11H257.544ZM257.544 1510.32H275.443V1512.8799999999999H257.544ZM257.544 1500.08H285.671V1502.6399999999999H257.544ZM252.43 1552.77L257.54 1547.65L262.654 1552.77L267.768 1547.65L272.88199999999995 1552.77L277.9959999999999 1547.65L283.1099999999999 1552.77L288.2239999999999 1547.65L293.33799999999985 1552.77L298.45099999999985 1547.65L303.56899999999985 1552.77V1483.23L298.45099999999985 1488.35L293.33799999999985 1483.23L288.2239999999999 1488.35L283.1099999999999 1483.23L277.9959999999999 1488.35L272.88199999999995 1483.23L267.768 1488.35L262.654 1483.23L257.54 1488.35L252.43 1483.23ZM249.874 1482.16L252.43 1479.6100000000001L257.54 1484.73L262.654 1479.6100000000001L267.768 1484.73L272.88199999999995 1479.6100000000001L277.9959999999999 1484.73L283.1099999999999 1479.6100000000001L288.2239999999999 1484.73L293.33799999999985 1479.6100000000001L298.45099999999985 1484.73L303.5649999999998 1479.6100000000001L306.1259999999998 1482.17V1553.8300000000002L303.5779999999998 1556.38L298.4509999999998 1551.2700000000002L293.3379999999998 1556.39L288.2239999999998 1551.2700000000002L283.10999999999984 1556.39L277.99599999999987 1551.2700000000002L272.8819999999999 1556.39L267.7679999999999 1551.2700000000002L262.65399999999994 1556.39L257.53999999999996 1551.2700000000002L252.42599999999996 1556.39L249.87399999999997 1553.8400000000001Z " fill-opacity="1" transform="matrix(1,0,0,1,-249,-1479)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_2421">
+      <span class="ma__decorative-link">
+  <a 
+    href="2421.html" 
+    class="js-clickable-link"
+            >Taxes&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_2421">
+              <p class="ma__section-links__description">Find resources, forms, and helpful advice to guide you through Massachusetts&#039; tax system.</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="2421.html" 
+    class="js-clickable-link"
+              aria-label="about Taxes"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="check-status-your-massachusetts-income-tax-refund.html" 
+    class="js-clickable-link"
+            >Check the status of your Massachusetts income tax refund&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="filing-your-massachusetts-personal-income-tax-return.html" 
+    class="js-clickable-link"
+            >Filing your Massachusetts personal income tax return&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/dor/individuals/filing-and-payment-information/filing-options/" 
+    class="js-clickable-link"
+            >Find personal income tax filing options&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/dor/individuals/taxpayer-help-and-resources/tax-guides/guide-to-dor/" 
+    class="js-clickable-link"
+            >Learn about your rights as a taxpayer&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1017" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="44" height="78" viewBox="0 0 44 78"><defs id="SvgjsDefs1018"></defs><path id="SvgjsPath1019" d="M299.059 781.185C299.059 776.012 297.208 771.025 293.786 767.14L293.727 767.045V766.862C293.727 762.074 291.65599999999995 757.588 287.96999999999997 754.5509999999999L287.81899999999996 754.419L287.871 754.215C288.59 751.1460000000001 287.882 747.969 285.924 745.5C283.96299999999997 743.028 281.03499999999997 741.61 277.88599999999997 741.61C274.73799999999994 741.61 271.808 743.028 269.847 745.5C267.88899999999995 747.97 267.179 751.146 267.89799999999997 754.215L267.94599999999997 754.419L267.78299999999996 754.5509999999999C264.09299999999996 757.592 262.00199999999995 762.078 262.00199999999995 766.8599999999999V767.0449999999998L261.91999999999996 767.1399999999999C259.31999999999994 770.1009999999999 257.59599999999995 773.7209999999999 256.93299999999994 777.6079999999998C256.2699999999999 781.4959999999999 256.69699999999995 785.4829999999998 258.1689999999999 789.1399999999999C259.64199999999994 792.7989999999999 262.09599999999995 795.9719999999999 265.26499999999993 798.3139999999999C268.43499999999995 800.6559999999998 272.17499999999995 802.0679999999999 276.10099999999994 802.3979999999998L276.39899999999994 802.4239999999998V815.4549999999997H268.52899999999994C267.52199999999993 815.4549999999997 267.0709999999999 816.1959999999997 267.0709999999999 816.9229999999997C267.0709999999999 817.6489999999997 267.52199999999993 818.3899999999996 268.52899999999994 818.3899999999996H287.22599999999994C287.68199999999996 818.3899999999996 288.05999999999995 818.2649999999996 288.32099999999997 817.9719999999996C288.55499999999995 817.7079999999996 288.68399999999997 817.3259999999997 288.68399999999997 816.9379999999996C288.68399999999997 816.2109999999997 288.234 815.4549999999997 287.22599999999994 815.4549999999997H279.33099999999996V802.4229999999997L279.64199999999994 802.3979999999997C284.97399999999993 801.9529999999996 289.86199999999997 799.5379999999997 293.48499999999996 795.5979999999997C297.10799999999995 791.6579999999997 299.05899999999997 786.5399999999997 299.05899999999997 781.1849999999997ZM279.703 799.467L279.33099999999996 799.5029999999999V785.9839999999999L287.506 777.805C288.013 777.2969999999999 288.01099999999997 776.7829999999999 287.91999999999996 776.4419999999999C287.77799999999996 775.9149999999998 287.33 775.4659999999999 286.804 775.3249999999999C286.464 775.2349999999999 285.95 775.233 285.44399999999996 775.741L279.33099999999996 781.852V767.619C279.33099999999996 766.611 278.59099999999995 766.1600000000001 277.86499999999995 766.1600000000001C277.13899999999995 766.1600000000001 276.39899999999994 766.6110000000001 276.39899999999994 767.619V789.635L270.51199999999994 783.6659999999999C270.00699999999995 783.16 269.49899999999997 783.1629999999999 269.15799999999996 783.2539999999999C268.631 783.396 268.18499999999995 783.8449999999999 268.04499999999996 784.3709999999999C267.95399999999995 784.7119999999999 267.943 785.2239999999998 268.45099999999996 785.7299999999999L276.39899999999994 793.733V799.5039999999999L276.03899999999993 799.4669999999999C271.5039999999999 799.0059999999999 267.32699999999994 796.9129999999999 264.2679999999999 793.5309999999998C261.2829999999999 790.2309999999999 259.6089999999999 785.9709999999999 259.5239999999999 781.5689999999998H259.5209999999999L259.5159999999999 781.2089999999998C259.5159999999999 776.7489999999998 261.1569999999999 772.4329999999999 264.1029999999999 769.0789999999998L264.9349999999999 768.1469999999998V766.8099999999998C264.9349999999999 762.9399999999998 266.6269999999999 759.3019999999998 269.6079999999999 756.8289999999998L271.1359999999999 755.5569999999998L270.69999999999993 753.6119999999997C270.2079999999999 751.4279999999998 270.7269999999999 749.1669999999997 272.12699999999995 747.4089999999998C273.53099999999995 745.6589999999998 275.61899999999997 744.6549999999997 277.85999999999996 744.6549999999997C280.09999999999997 744.6549999999997 282.18899999999996 745.6589999999998 283.59299999999996 747.4079999999998C284.99399999999997 749.1669999999998 285.515 751.4279999999998 285.02299999999997 753.6129999999998L284.592 755.5549999999998L286.19599999999997 756.8269999999999C289.178 759.2949999999998 290.928 762.9299999999998 290.928 766.7999999999998V768.1369999999998L291.70799999999997 769.0569999999998C296.279 774.2529999999998 297.525 781.4809999999998 294.98799999999994 787.9199999999998C292.45399999999995 794.3619999999999 286.58599999999996 798.7869999999998 279.7029999999999 799.4669999999999Z " fill-opacity="1" transform="matrix(1,0,0,1,-256,-741)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_1686">
+      <span class="ma__decorative-link">
+  <a 
+    href="1686.html" 
+    class="js-clickable-link"
+            >Environment&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_1686">
+              <p class="ma__section-links__description">Looking for information on recycling? Or how to report a hazardous waste spill? Find the information you need to keep our land, air, and water clean for future generations.</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="1686.html" 
+    class="js-clickable-link"
+              aria-label="about Environment"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/eea/energy-utilities-clean-tech/home-auto-fuel-price-info/heating-oil-price-surveys.html" 
+    class="js-clickable-link"
+            >Check heating oil prices&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://public.dep.state.ma.us/SearchableSites2/Search.aspx" 
+    class="js-clickable-link"
+            >Find hazardous waste cleanup sites&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/eea/agencies/massdep/recycle/approvals/" 
+    class="js-clickable-link"
+            >Find waste and recycling permits and forms&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.masssolarloan.com/" 
+    class="js-clickable-link"
+            >Apply for a solar loan&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+                
+<section class="ma__section-links js-accordion">
+  <div class="ma__section-links__content">
+          <div class="ma__section-links__icon">
+                <figure class="ma__category-icon ma__category-icon--small">
+  <svg aria-hidden="true" id="SvgjsSvg1029" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="67" height="78" viewBox="0 0 67 78"><defs id="SvgjsDefs1030"></defs><path id="SvgjsPath1031" d="M281.586 1320.9V1320.9V1320.9ZM278.83 1334.48V1334.48V1334.48ZM278.821 1334.47V1334.47V1334.47ZM260.871 1320.39L260.84499999999997 1320.4C260.80699999999996 1320.41 260.77099999999996 1320.42 260.73499999999996 1320.44L260.70599999999996 1320.45C260.67199999999997 1320.46 260.63899999999995 1320.48 260.60599999999994 1320.5L260.57399999999996 1320.51C260.542 1320.53 260.51199999999994 1320.55 260.48299999999995 1320.57C260.46999999999997 1320.58 260.45799999999997 1320.58 260.44599999999997 1320.59C260.419 1320.61 260.393 1320.6299999999999 260.368 1320.6499999999999C260.353 1320.6599999999999 260.339 1320.6799999999998 260.325 1320.6899999999998C260.303 1320.7099999999998 260.283 1320.7299999999998 260.262 1320.7499999999998L260.238 1320.7699999999998C260.226 1320.7799999999997 260.219 1320.7899999999997 260.212 1320.7999999999997C260.198 1320.8099999999997 260.183 1320.8299999999997 260.168 1320.8499999999997C260.149 1320.8699999999997 260.13100000000003 1320.8899999999996 260.11400000000003 1320.9099999999996L260.08700000000005 1320.9499999999996C260.06600000000003 1320.9799999999996 260.047 1321.0099999999995 260.02900000000005 1321.0299999999995L260.01400000000007 1321.0599999999995C259.99500000000006 1321.0899999999995 259.97600000000006 1321.1299999999994 259.95900000000006 1321.1599999999994L259.94900000000007 1321.1799999999994C259.93300000000005 1321.2199999999993 259.9170000000001 1321.2599999999993 259.9030000000001 1321.2899999999993L259.89400000000006 1321.3199999999993C259.8810000000001 1321.3599999999992 259.8690000000001 1321.3899999999992 259.86000000000007 1321.4299999999992L259.85100000000006 1321.4599999999991C259.8430000000001 1321.499999999999 259.83500000000004 1321.529999999999 259.83000000000004 1321.569999999999L259.82400000000007 1321.609999999999C259.82000000000005 1321.639999999999 259.81500000000005 1321.679999999999 259.81300000000005 1321.709999999999L259.81200000000007 1321.7499999999989C259.81000000000006 1321.7899999999988 259.81000000000006 1321.8299999999988 259.8110000000001 1321.8599999999988L259.8130000000001 1321.8899999999987C259.8150000000001 1321.9299999999987 259.8190000000001 1321.9699999999987 259.8250000000001 1322.0199999999988L259.8280000000001 1322.0299999999988C259.83400000000006 1322.0799999999988 259.8430000000001 1322.1199999999988 259.85300000000007 1322.159999999999L259.85800000000006 1322.179999999999C259.8690000000001 1322.2299999999989 259.8810000000001 1322.2599999999989 259.89400000000006 1322.2999999999988L259.9050000000001 1322.3299999999988C259.91800000000006 1322.3699999999988 259.9320000000001 1322.3999999999987 259.9460000000001 1322.4299999999987C259.95400000000006 1322.4499999999987 259.96100000000007 1322.4599999999987 259.9690000000001 1322.4799999999987C259.9810000000001 1322.4999999999986 259.9950000000001 1322.5299999999986 260.0090000000001 1322.5499999999986C260.0220000000001 1322.5699999999986 260.0340000000001 1322.5899999999986 260.04700000000014 1322.6099999999985C260.05800000000016 1322.6299999999985 260.07000000000016 1322.6499999999985 260.08200000000016 1322.6699999999985C260.10200000000015 1322.6899999999985 260.1220000000002 1322.7199999999984 260.14300000000014 1322.7499999999984L260.16500000000013 1322.7699999999984C260.1950000000001 1322.8099999999984 260.22500000000014 1322.8399999999983 260.2570000000001 1322.8699999999983L260.3030000000001 1322.9199999999983L268.0540000000001 1330.4799999999982L266.2140000000001 1341.2099999999982C266.2150000000001 1341.2099999999982 266.2140000000001 1341.2099999999982 266.21300000000014 1341.2199999999982C266.20600000000013 1341.2599999999982 266.20100000000014 1341.2999999999981 266.1970000000001 1341.339999999998L266.19600000000014 1341.369999999998C266.19300000000015 1341.409999999998 266.1920000000001 1341.449999999998 266.19300000000015 1341.489999999998C266.19300000000015 1341.499999999998 266.19400000000013 1341.519999999998 266.19500000000016 1341.529999999998C266.19600000000014 1341.559999999998 266.1990000000002 1341.5999999999979 266.20200000000017 1341.6299999999978C266.20500000000015 1341.6499999999978 266.20700000000016 1341.6699999999978 266.21000000000015 1341.6799999999978C266.21400000000017 1341.7099999999978 266.21900000000016 1341.7399999999977 266.22500000000014 1341.7699999999977C266.23000000000013 1341.7899999999977 266.2350000000001 1341.8099999999977 266.2400000000001 1341.8299999999977C266.2470000000001 1341.8599999999976 266.2530000000001 1341.8799999999976 266.26100000000014 1341.8999999999976C266.2690000000001 1341.9299999999976 266.27700000000016 1341.9499999999975 266.2860000000001 1341.9799999999975C266.2940000000001 1341.9999999999975 266.30200000000013 1342.0199999999975 266.3100000000001 1342.0399999999975C266.3220000000001 1342.0699999999974 266.3350000000001 1342.0899999999974 266.3480000000001 1342.1199999999974C266.35200000000015 1342.1299999999974 266.3560000000001 1342.1399999999974 266.3610000000001 1342.1499999999974C266.3650000000001 1342.1499999999974 266.3690000000001 1342.1599999999974 266.3740000000001 1342.1699999999973C266.3880000000001 1342.1999999999973 266.4030000000001 1342.2199999999973 266.4190000000001 1342.2499999999973C266.4340000000001 1342.2699999999973 266.4430000000001 1342.2899999999972 266.4530000000001 1342.2999999999972C266.4650000000001 1342.3199999999972 266.47800000000007 1342.3299999999972 266.4910000000001 1342.3499999999972L266.5010000000001 1342.3599999999972C266.5150000000001 1342.3799999999972 266.5290000000001 1342.3999999999971 266.5450000000001 1342.4199999999971C266.55100000000004 1342.429999999997 266.5590000000001 1342.439999999997 266.56700000000006 1342.449999999997L266.58200000000005 1342.459999999997C266.60300000000007 1342.479999999997 266.62300000000005 1342.509999999997 266.64400000000006 1342.529999999997L266.67800000000005 1342.559999999997C266.70300000000003 1342.579999999997 266.72700000000003 1342.599999999997 266.75200000000007 1342.619999999997L266.78800000000007 1342.649999999997C266.81500000000005 1342.669999999997 266.84100000000007 1342.6899999999969 266.8690000000001 1342.7099999999969L266.9070000000001 1342.7299999999968C266.9360000000001 1342.7499999999968 266.9640000000001 1342.7599999999968 266.9940000000001 1342.7799999999968L267.0320000000001 1342.7999999999968C267.0640000000001 1342.8099999999968 267.0950000000001 1342.8299999999967 267.1280000000001 1342.8399999999967L267.1590000000001 1342.8499999999967C267.1970000000001 1342.8699999999967 267.2340000000001 1342.8799999999967 267.27100000000013 1342.8899999999967H267.29200000000014C267.33500000000015 1342.9099999999967 267.37900000000013 1342.9199999999967 267.42200000000014 1342.9199999999967L267.43200000000013 1342.9299999999967C267.4760000000001 1342.9299999999967 267.52100000000013 1342.9399999999966 267.5650000000001 1342.9399999999966H267.5870000000001C267.6320000000001 1342.9499999999966 267.6680000000001 1342.9499999999966 267.7050000000001 1342.9499999999966C267.7220000000001 1342.9499999999966 267.7390000000001 1342.9399999999966 267.7550000000001 1342.9399999999966C267.7840000000001 1342.9399999999966 267.8130000000001 1342.9399999999966 267.84300000000013 1342.9399999999966C267.8650000000001 1342.9299999999967 267.8870000000001 1342.9299999999967 267.9090000000001 1342.9299999999967C267.9330000000001 1342.9199999999967 267.95600000000013 1342.9199999999967 267.98000000000013 1342.9199999999967C268.0070000000001 1342.9099999999967 268.03300000000013 1342.8999999999967 268.05900000000014 1342.8999999999967C268.0770000000001 1342.8899999999967 268.0960000000001 1342.8899999999967 268.11600000000016 1342.8799999999967C268.14600000000013 1342.8699999999967 268.17600000000016 1342.8599999999967 268.20500000000015 1342.8499999999967C268.22000000000014 1342.8399999999967 268.2350000000001 1342.8399999999967 268.25100000000015 1342.8299999999967C268.28300000000013 1342.8199999999968 268.31400000000014 1342.7999999999968 268.34500000000014 1342.7899999999968C268.35400000000016 1342.7799999999968 268.3630000000001 1342.7799999999968 268.3720000000001 1342.7799999999968L278.00400000000013 1337.7099999999969L287.63800000000015 1342.7799999999968C287.64500000000015 1342.7799999999968 287.65400000000017 1342.7799999999968 287.6630000000001 1342.7899999999968C287.69400000000013 1342.7999999999968 287.72500000000014 1342.8199999999968 287.7570000000001 1342.8299999999967C287.77300000000014 1342.8399999999967 287.7880000000001 1342.8399999999967 287.8030000000001 1342.8499999999967C287.8320000000001 1342.8599999999967 287.8610000000001 1342.8699999999967 287.8920000000001 1342.8799999999967C287.9110000000001 1342.8899999999967 287.9300000000001 1342.8899999999967 287.9490000000001 1342.8999999999967C287.9740000000001 1342.8999999999967 288.0000000000001 1342.9099999999967 288.0270000000001 1342.9199999999967C288.0520000000001 1342.9199999999967 288.0750000000001 1342.9199999999967 288.0990000000001 1342.9299999999967C288.1200000000001 1342.9299999999967 288.1420000000001 1342.9299999999967 288.1640000000001 1342.9399999999966C288.1940000000001 1342.9399999999966 288.2240000000001 1342.9399999999966 288.2540000000001 1342.9399999999966C288.26900000000006 1342.9399999999966 288.2850000000001 1342.9499999999966 288.3020000000001 1342.9499999999966C288.33900000000006 1342.9499999999966 288.3760000000001 1342.9499999999966 288.4120000000001 1342.9399999999966H288.4400000000001C288.48700000000014 1342.9399999999966 288.5310000000001 1342.9299999999967 288.57600000000014 1342.9299999999967L288.58700000000016 1342.9199999999967C288.6320000000002 1342.9199999999967 288.67400000000015 1342.9099999999967 288.7160000000002 1342.8899999999967H288.7300000000002C288.77400000000017 1342.8799999999967 288.8110000000002 1342.8699999999967 288.8470000000002 1342.8499999999967L288.8800000000002 1342.8399999999967C288.9120000000002 1342.8299999999967 288.94400000000024 1342.8099999999968 288.97500000000025 1342.7999999999968L289.01400000000024 1342.7799999999968C289.04300000000023 1342.7599999999968 289.07200000000023 1342.7499999999968 289.10000000000025 1342.7299999999968L289.13800000000026 1342.7099999999969C289.16700000000026 1342.6899999999969 289.19300000000027 1342.669999999997 289.22000000000025 1342.649999999997L289.2550000000003 1342.619999999997C289.2810000000003 1342.599999999997 289.3050000000003 1342.579999999997 289.3290000000003 1342.559999999997L289.3630000000003 1342.529999999997C289.3850000000003 1342.509999999997 289.40500000000026 1342.479999999997 289.4260000000003 1342.459999999997L289.43900000000025 1342.449999999997C289.44700000000023 1342.439999999997 289.45600000000024 1342.429999999997 289.46300000000025 1342.4199999999971C289.47800000000024 1342.3999999999971 289.49200000000025 1342.3799999999972 289.50600000000026 1342.3699999999972C289.52700000000027 1342.3399999999972 289.5410000000003 1342.3199999999972 289.55400000000026 1342.2999999999972C289.56400000000025 1342.2899999999972 289.57400000000024 1342.2699999999973 289.58300000000025 1342.2499999999973C289.60400000000027 1342.2199999999973 289.62000000000023 1342.1999999999973 289.63400000000024 1342.1699999999973L289.6470000000002 1342.1499999999974C289.65100000000024 1342.1399999999974 289.65600000000023 1342.1299999999974 289.6600000000002 1342.1199999999974C289.6730000000002 1342.0899999999974 289.6860000000002 1342.0699999999974 289.6970000000002 1342.0399999999975C289.7060000000002 1342.0199999999975 289.71400000000017 1341.9999999999975 289.72200000000015 1341.9799999999975C289.73000000000013 1341.9499999999975 289.73900000000015 1341.9299999999976 289.7470000000001 1341.8999999999976C289.75400000000013 1341.8799999999976 289.76100000000014 1341.8599999999976 289.7670000000001 1341.8299999999977C289.7730000000001 1341.8099999999977 289.77800000000013 1341.7899999999977 289.7820000000001 1341.7699999999977C289.78800000000007 1341.7399999999977 289.7930000000001 1341.7099999999978 289.7980000000001 1341.6799999999978C289.8000000000001 1341.6699999999978 289.8030000000001 1341.6499999999978 289.8050000000001 1341.6299999999978C289.80900000000014 1341.5999999999979 289.8110000000001 1341.559999999998 289.8130000000001 1341.529999999998L289.8140000000001 1341.489999999998C289.81500000000005 1341.449999999998 289.8140000000001 1341.409999999998 289.81200000000007 1341.379999999998L289.81000000000006 1341.339999999998C289.8070000000001 1341.2999999999981 289.8020000000001 1341.2599999999982 289.7950000000001 1341.2199999999982L289.78400000000005 1341.1499999999983L287.95300000000003 1330.4799999999982L295.749 1322.8699999999983C295.78200000000004 1322.8399999999983 295.81300000000005 1322.8099999999984 295.841 1322.7699999999984L295.857 1322.7599999999984C295.886 1322.7199999999984 295.906 1322.6899999999985 295.925 1322.6699999999985C295.938 1322.6499999999985 295.949 1322.6299999999985 295.96000000000004 1322.6099999999985C295.973 1322.5899999999986 295.98600000000005 1322.5699999999986 295.99800000000005 1322.5499999999986C296.01300000000003 1322.5299999999986 296.02600000000007 1322.4999999999986 296.03900000000004 1322.4799999999987C296.04600000000005 1322.4599999999987 296.05400000000003 1322.4499999999987 296.06100000000004 1322.4299999999987C296.076 1322.3999999999987 296.08900000000006 1322.3699999999988 296.10100000000006 1322.3299999999988L296.11300000000006 1322.2999999999988C296.12700000000007 1322.2599999999989 296.13800000000003 1322.2299999999989 296.1480000000001 1322.189999999999L296.1550000000001 1322.159999999999C296.1650000000001 1322.119999999999 296.17300000000006 1322.079999999999 296.18000000000006 1322.039999999999L296.18300000000005 1322.009999999999C296.189 1321.9699999999991 296.19200000000006 1321.9299999999992 296.19500000000005 1321.8899999999992L296.196 1321.8699999999992C296.19800000000004 1321.8299999999992 296.197 1321.7899999999993 296.196 1321.7499999999993L296.19500000000005 1321.7099999999994C296.19200000000006 1321.6799999999994 296.18800000000005 1321.6399999999994 296.18300000000005 1321.6099999999994L296.17800000000005 1321.5699999999995C296.1720000000001 1321.5299999999995 296.16400000000004 1321.4999999999995 296.15600000000006 1321.4599999999996L296.1480000000001 1321.4299999999996C296.1380000000001 1321.3899999999996 296.1260000000001 1321.3599999999997 296.1140000000001 1321.3199999999997L296.1070000000001 1321.2999999999997C296.09100000000007 1321.2599999999998 296.0750000000001 1321.2199999999998 296.0580000000001 1321.1799999999998L296.0500000000001 1321.1599999999999C296.03200000000015 1321.1299999999999 296.01300000000015 1321.09 295.9930000000001 1321.06L295.9830000000001 1321.04C295.9610000000001 1321.01 295.94100000000014 1320.98 295.9210000000001 1320.95L295.8930000000001 1320.91C295.87700000000007 1320.89 295.8590000000001 1320.8700000000001 295.8400000000001 1320.8500000000001C295.8250000000001 1320.8300000000002 295.8100000000001 1320.8100000000002 295.7950000000001 1320.7900000000002C295.78800000000007 1320.7900000000002 295.7820000000001 1320.7800000000002 295.77600000000007 1320.7700000000002L295.74700000000007 1320.7500000000002C295.7250000000001 1320.7300000000002 295.7030000000001 1320.7100000000003 295.6810000000001 1320.6900000000003C295.6690000000001 1320.6800000000003 295.6560000000001 1320.6600000000003 295.6420000000001 1320.6500000000003C295.6150000000001 1320.6300000000003 295.58800000000014 1320.6100000000004 295.5590000000001 1320.5900000000004L295.5280000000001 1320.5700000000004C295.4960000000001 1320.5500000000004 295.46400000000006 1320.5300000000004 295.4310000000001 1320.5100000000004L295.4050000000001 1320.5000000000005C295.37000000000006 1320.4800000000005 295.33400000000006 1320.4600000000005 295.29800000000006 1320.4500000000005L295.27600000000007 1320.4400000000005C295.23800000000006 1320.4200000000005 295.20000000000005 1320.4100000000005 295.16100000000006 1320.3900000000006H295.14000000000004C295.10100000000006 1320.3800000000006 295.06100000000004 1320.3700000000006 295.02000000000004 1320.3600000000006L294.96700000000004 1320.3500000000006C294.95300000000003 1320.3400000000006 294.939 1320.3400000000006 294.92400000000004 1320.3400000000006L284.153 1318.7700000000007L279.339 1309.0100000000007C279.333 1309.0000000000007 279.326 1308.9900000000007 279.319 1308.9700000000007L279.288 1308.9200000000008C279.27000000000004 1308.8900000000008 279.25 1308.8600000000008 279.23 1308.8300000000008L279.20500000000004 1308.7900000000009C279.18700000000007 1308.770000000001 279.16700000000003 1308.740000000001 279.148 1308.720000000001C279.134 1308.700000000001 279.12100000000004 1308.690000000001 279.107 1308.670000000001C279.091 1308.650000000001 279.07300000000004 1308.630000000001 279.055 1308.620000000001C279.036 1308.600000000001 279.01800000000003 1308.580000000001 278.999 1308.560000000001C278.98400000000004 1308.550000000001 278.96900000000005 1308.540000000001 278.954 1308.5200000000011C278.92900000000003 1308.5000000000011 278.90500000000003 1308.4800000000012 278.879 1308.4700000000012L278.845 1308.4400000000012C278.814 1308.4200000000012 278.783 1308.4000000000012 278.75100000000003 1308.3800000000012L278.699 1308.3500000000013C278.687 1308.3500000000013 278.675 1308.3400000000013 278.66200000000003 1308.3300000000013L278.619 1308.3100000000013C278.567 1308.2900000000013 278.526 1308.2700000000013 278.48400000000004 1308.2600000000014C278.43300000000005 1308.2400000000014 278.391 1308.2300000000014 278.34700000000004 1308.2200000000014H278.336C278.29400000000004 1308.2100000000014 278.252 1308.2000000000014 278.21000000000004 1308.2000000000014L278.17600000000004 1308.1900000000014C278.14300000000003 1308.1900000000014 278.10800000000006 1308.1700000000014 278.07300000000004 1308.1600000000014C278.05600000000004 1308.1600000000014 278.04100000000005 1308.1500000000015 278.026 1308.1500000000015H277.982C277.966 1308.1500000000015 277.951 1308.1600000000014 277.93600000000004 1308.1600000000014C277.89900000000006 1308.1700000000014 277.865 1308.1800000000014 277.83000000000004 1308.1800000000014L277.80800000000005 1308.1900000000014C277.75600000000003 1308.2000000000014 277.71400000000006 1308.2100000000014 277.672 1308.2200000000014H277.658C277.617 1308.2300000000014 277.574 1308.2400000000014 277.53200000000004 1308.2600000000014H277.51800000000003C277.482 1308.2700000000013 277.44100000000003 1308.2900000000013 277.40000000000003 1308.3100000000013L277.345 1308.3300000000013C277.333 1308.3400000000013 277.321 1308.3500000000013 277.309 1308.3500000000013L277.254 1308.3800000000012C277.225 1308.4000000000012 277.194 1308.4200000000012 277.16400000000004 1308.4400000000012L277.12800000000004 1308.4700000000012C277.10300000000007 1308.4800000000012 277.07800000000003 1308.5000000000011 277.05400000000003 1308.5200000000011C277.03900000000004 1308.540000000001 277.02400000000006 1308.550000000001 277.009 1308.560000000001C276.99 1308.580000000001 276.971 1308.600000000001 276.95300000000003 1308.620000000001C276.934 1308.640000000001 276.91700000000003 1308.650000000001 276.89900000000006 1308.670000000001C276.88700000000006 1308.690000000001 276.8740000000001 1308.700000000001 276.86100000000005 1308.720000000001C276.84000000000003 1308.740000000001 276.821 1308.770000000001 276.80300000000005 1308.7900000000009C276.79400000000004 1308.8000000000009 276.78600000000006 1308.8200000000008 276.7780000000001 1308.8300000000008C276.75700000000006 1308.8600000000008 276.7370000000001 1308.8900000000008 276.71900000000005 1308.9200000000008L276.6890000000001 1308.9700000000007C276.6820000000001 1308.9900000000007 276.67500000000007 1309.0000000000007 276.66800000000006 1309.0100000000007L271.8550000000001 1318.7700000000007L261.0830000000001 1320.3400000000006C261.0700000000001 1320.3400000000006 261.0570000000001 1320.3400000000006 261.04300000000006 1320.3500000000006H261.00900000000007L260.9290000000001 1320.0900000000006L260.9860000000001 1320.3600000000006C260.9470000000001 1320.3700000000006 260.90800000000013 1320.3800000000006 260.8710000000001 1320.3900000000006ZM273.055 1321.61C273.235 1321.58 273.409 1321.52 273.57 1321.4299999999998L273.585 1321.4199999999998C273.621 1321.3999999999999 273.657 1321.3799999999999 273.692 1321.35L273.704 1321.34C273.736 1321.32 273.76800000000003 1321.3 273.79900000000004 1321.27L273.81300000000005 1321.26C273.84700000000004 1321.23 273.874 1321.2 273.90100000000007 1321.17L273.91600000000005 1321.16C273.95000000000005 1321.1200000000001 273.9750000000001 1321.1000000000001 273.9990000000001 1321.0700000000002L274.01200000000006 1321.0500000000002C274.04400000000004 1321.0100000000002 274.06700000000006 1320.9700000000003 274.09000000000003 1320.9400000000003L274.10100000000006 1320.9200000000003C274.12700000000007 1320.8800000000003 274.15100000000007 1320.8400000000004 274.17300000000006 1320.7900000000002L274.18700000000007 1320.7700000000002L278.0040000000001 1313.0300000000002L281.82000000000005 1320.7700000000002L281.58600000000007 1320.9000000000003L281.82400000000007 1320.7900000000004L281.8260000000001 1320.8100000000004H281.83400000000006C281.85600000000005 1320.8500000000004 281.88000000000005 1320.8900000000003 281.90600000000006 1320.9300000000003L281.91800000000006 1320.9400000000003C281.94000000000005 1320.9800000000002 281.96400000000006 1321.0100000000002 281.9890000000001 1321.0400000000002L282.00900000000007 1321.0700000000002C282.0330000000001 1321.1000000000001 282.05800000000005 1321.13 282.08400000000006 1321.15L282.10600000000005 1321.18C282.13300000000004 1321.2 282.16100000000006 1321.23 282.19000000000005 1321.25L282.208 1321.27C282.24 1321.3 282.27200000000005 1321.32 282.305 1321.35H282.317C282.351 1321.3799999999999 282.386 1321.3999999999999 282.423 1321.4199999999998L282.437 1321.4299999999998C282.598 1321.5199999999998 282.772 1321.58 282.95300000000003 1321.61L291.51200000000006 1322.85L285.32800000000003 1328.8799999999999C285.314 1328.8999999999999 285.307 1328.9099999999999 285.3 1328.9099999999999C285.27500000000003 1328.9399999999998 285.249 1328.9699999999998 285.225 1328.9999999999998C285.211 1329.0099999999998 285.19800000000004 1329.0299999999997 285.18600000000004 1329.0399999999997L285.15900000000005 1329.0799999999997C285.15200000000004 1329.0899999999997 285.1460000000001 1329.0999999999997 285.13900000000007 1329.1099999999997C285.11800000000005 1329.1399999999996 285.09900000000005 1329.1699999999996 285.08000000000004 1329.1999999999996L285.07000000000005 1329.2199999999996C285.04400000000004 1329.2599999999995 285.02600000000007 1329.2999999999995 285.00900000000007 1329.3299999999995L285.00200000000007 1329.3499999999995C284.9840000000001 1329.3899999999994 284.96900000000005 1329.4299999999994 284.95500000000004 1329.4699999999993L284.94900000000007 1329.4799999999993C284.93500000000006 1329.5199999999993 284.92500000000007 1329.5599999999993 284.9150000000001 1329.5999999999992L284.9100000000001 1329.6199999999992C284.9000000000001 1329.6599999999992 284.8930000000001 1329.6999999999991 284.8880000000001 1329.739999999999L284.88400000000007 1329.759999999999C284.8780000000001 1329.809999999999 284.87500000000006 1329.849999999999 284.87300000000005 1329.8899999999992L284.87200000000007 1329.9099999999992C284.87000000000006 1329.9599999999991 284.8710000000001 1329.999999999999 284.8740000000001 1330.0399999999993V1330.0599999999993C284.87700000000007 1330.1099999999992 284.8830000000001 1330.1499999999992 284.8900000000001 1330.1899999999994L284.8930000000001 1330.2199999999993L286.3540000000001 1338.7399999999993L278.7180000000001 1334.7199999999993L278.8300000000001 1334.4799999999993L278.6980000000001 1334.7099999999994H278.68700000000007C278.6480000000001 1334.6899999999994 278.6070000000001 1334.6699999999994 278.5660000000001 1334.6499999999994C278.55500000000006 1334.6499999999994 278.5460000000001 1334.6399999999994 278.5360000000001 1334.6399999999994L278.4970000000001 1334.6299999999994C278.47500000000014 1334.6199999999994 278.45300000000015 1334.6099999999994 278.43100000000015 1334.5999999999995C278.4110000000002 1334.5999999999995 278.39100000000013 1334.5899999999995 278.37100000000015 1334.5899999999995L278.33700000000016 1334.5799999999995C278.3220000000002 1334.5799999999995 278.3070000000002 1334.5699999999995 278.29200000000014 1334.5699999999995C278.26800000000014 1334.5599999999995 278.24400000000014 1334.5599999999995 278.22000000000014 1334.5599999999995L278.19300000000015 1334.5499999999995C278.17900000000014 1334.5499999999995 278.16400000000016 1334.5499999999995 278.15000000000015 1334.5499999999995C278.1270000000001 1334.5499999999995 278.10600000000017 1334.5499999999995 278.0840000000002 1334.5399999999995H278.05800000000016C278.02300000000014 1334.5399999999995 277.98800000000017 1334.5399999999995 277.95000000000016 1334.5399999999995H277.9350000000002C277.90200000000016 1334.5499999999995 277.88000000000017 1334.5499999999995 277.8580000000002 1334.5499999999995C277.8430000000002 1334.5499999999995 277.8290000000002 1334.5499999999995 277.8140000000002 1334.5499999999995L277.7960000000002 1334.5599999999995C277.7630000000002 1334.5599999999995 277.7390000000002 1334.5599999999995 277.7150000000002 1334.5699999999995C277.7000000000002 1334.5699999999995 277.68500000000023 1334.5799999999995 277.6710000000002 1334.5799999999995L277.6350000000002 1334.5899999999995C277.6160000000002 1334.5899999999995 277.59600000000023 1334.5999999999995 277.5770000000002 1334.5999999999995C277.5540000000002 1334.6099999999994 277.53300000000024 1334.6199999999994 277.51100000000025 1334.6299999999994L277.47100000000023 1334.6399999999994C277.4620000000002 1334.6399999999994 277.4520000000002 1334.6499999999994 277.4430000000002 1334.6499999999994C277.40100000000024 1334.6699999999994 277.3600000000002 1334.6899999999994 277.3200000000002 1334.7099999999994L277.29000000000025 1334.7199999999993L269.6540000000002 1338.7399999999993L271.1130000000002 1330.2299999999993L271.3800000000002 1330.2599999999993L271.1160000000002 1330.2099999999994L271.1180000000002 1330.1899999999994C271.1250000000002 1330.1499999999994 271.1300000000002 1330.1099999999994 271.1330000000002 1330.0599999999993L271.1340000000002 1330.0399999999993C271.1360000000002 1329.9999999999993 271.13700000000017 1329.9599999999994 271.1360000000002 1329.9199999999994L271.1340000000002 1329.8899999999994C271.1320000000002 1329.8499999999995 271.13000000000017 1329.8099999999995 271.12500000000017 1329.7699999999995L271.1200000000002 1329.7399999999996C271.1140000000002 1329.6999999999996 271.1080000000002 1329.6599999999996 271.09900000000016 1329.6299999999997L271.0930000000002 1329.5999999999997C271.0830000000002 1329.5599999999997 271.0720000000002 1329.5199999999998 271.0590000000002 1329.4899999999998L271.0530000000002 1329.4699999999998C271.0390000000002 1329.4299999999998 271.0240000000002 1329.3899999999999 271.00700000000023 1329.35L270.9980000000002 1329.33C270.9810000000002 1329.3 270.9630000000002 1329.26 270.9430000000002 1329.22L270.9280000000002 1329.2C270.9090000000002 1329.17 270.8900000000002 1329.14 270.8680000000002 1329.1100000000001C270.8630000000002 1329.1000000000001 270.8560000000002 1329.0900000000001 270.85000000000025 1329.0800000000002L270.82100000000025 1329.0400000000002C270.80900000000025 1329.0300000000002 270.79700000000025 1329.0100000000002 270.78300000000024 1329.0000000000002C270.75800000000027 1328.9700000000003 270.73200000000026 1328.9400000000003 270.70500000000027 1328.9100000000003C270.6990000000003 1328.9100000000003 270.69300000000027 1328.9000000000003 270.68600000000026 1328.8900000000003L270.86600000000027 1328.6900000000003L270.67200000000025 1328.8800000000003L264.49500000000023 1322.8500000000004ZM309.38 1301.15C309.049 1301.15 308.563 1301.13 307.849 1301.0900000000001C306.419 1301.0100000000002 304.97999999999996 1300.88 303.45 1300.68C298.57099999999997 1300.0600000000002 294.03499999999997 1298.96 289.967 1297.41C285.59299999999996 1295.75 281.89599999999996 1293.5800000000002 278.978 1290.98C278.967 1290.97 278.957 1290.96 278.94800000000004 1290.95C278.92900000000003 1290.94 278.91700000000003 1290.93 278.90500000000003 1290.92C278.89700000000005 1290.91 278.889 1290.9 278.879 1290.89C278.85900000000004 1290.88 278.839 1290.8700000000001 278.81800000000004 1290.8500000000001L278.79200000000003 1290.8300000000002C278.781 1290.8300000000002 278.771 1290.8200000000002 278.76000000000005 1290.8100000000002C278.737 1290.8000000000002 278.713 1290.7900000000002 278.68800000000005 1290.7700000000002L278.65900000000005 1290.7600000000002C278.65000000000003 1290.7500000000002 278.64200000000005 1290.7500000000002 278.63400000000007 1290.7500000000002C278.6040000000001 1290.7300000000002 278.57400000000007 1290.7200000000003 278.5440000000001 1290.7100000000003L278.5010000000001 1290.6900000000003C278.4700000000001 1290.6800000000003 278.4380000000001 1290.6700000000003 278.4070000000001 1290.6600000000003L278.3630000000001 1290.6500000000003C278.33300000000014 1290.6400000000003 278.30200000000013 1290.6400000000003 278.27100000000013 1290.6300000000003L278.2210000000001 1290.6200000000003C278.19600000000014 1290.6200000000003 278.17000000000013 1290.6200000000003 278.1440000000001 1290.6100000000004H278.1160000000001C278.1020000000001 1290.6100000000004 278.0900000000001 1290.6200000000003 278.0760000000001 1290.6200000000003C278.0580000000001 1290.6200000000003 278.0390000000001 1290.6300000000003 278.0200000000001 1290.6300000000003H277.9870000000001C277.9690000000001 1290.6300000000003 277.9500000000001 1290.6200000000003 277.9310000000001 1290.6200000000003C277.9180000000001 1290.6200000000003 277.9050000000001 1290.6200000000003 277.8920000000001 1290.6200000000003H277.8710000000001C277.8370000000001 1290.6200000000003 277.81200000000007 1290.6200000000003 277.7860000000001 1290.6200000000003L277.73700000000014 1290.6300000000003C277.70500000000015 1290.6400000000003 277.67400000000015 1290.6400000000003 277.6440000000001 1290.6500000000003L277.6010000000001 1290.6600000000003C277.56900000000013 1290.6700000000003 277.5380000000001 1290.6800000000003 277.5060000000001 1290.6900000000003L277.4630000000001 1290.7100000000003C277.4330000000001 1290.7200000000003 277.4030000000001 1290.7300000000002 277.3740000000001 1290.7500000000002C277.36500000000007 1290.7500000000002 277.3560000000001 1290.7500000000002 277.3470000000001 1290.7600000000002L277.32400000000007 1290.7700000000002C277.2900000000001 1290.7900000000002 277.2680000000001 1290.8000000000002 277.2460000000001 1290.8100000000002C277.2330000000001 1290.8200000000002 277.2210000000001 1290.8300000000002 277.2080000000001 1290.8400000000001L277.1660000000001 1290.8700000000001C277.1520000000001 1290.8700000000001 277.1380000000001 1290.88 277.1250000000001 1290.89C277.1080000000001 1290.91 277.0910000000001 1290.92 277.0750000000001 1290.93L277.0320000000001 1290.97C277.0260000000001 1290.97 277.0200000000001 1290.98 277.0150000000001 1290.98C274.1040000000001 1293.58 270.4020000000001 1295.74 266.0100000000001 1297.41C261.9530000000001 1298.96 257.4060000000001 1300.0600000000002 252.4960000000001 1300.68C251.0190000000001 1300.8700000000001 249.5190000000001 1301.01 248.0380000000001 1301.0900000000001C247.2740000000001 1301.13 246.45800000000008 1301.15 246.1230000000001 1301.15C245.3140000000001 1301.15 244.3750000000001 1301.8000000000002 244.3750000000001 1302.64V1328.48C244.3750000000001 1339.99 249.9800000000001 1350.07 261.03300000000013 1358.46C264.2450000000001 1360.9 268.0340000000001 1363.16 272.2930000000001 1365.18C273.7310000000001 1365.8600000000001 275.11700000000013 1366.42 276.0340000000001 1366.78C276.7480000000001 1367.07 277.2630000000001 1367.24 277.4740000000001 1367.31C277.4900000000001 1367.31 277.5100000000001 1367.31 277.5310000000001 1367.32C277.56900000000013 1367.33 277.6160000000001 1367.34 277.6560000000001 1367.35L277.69400000000013 1367.36C277.7280000000001 1367.37 277.7640000000001 1367.37 277.79900000000015 1367.3799999999999C277.81600000000014 1367.3799999999999 277.8340000000002 1367.3799999999999 277.85100000000017 1367.3799999999999C277.8770000000002 1367.3799999999999 277.9060000000002 1367.3899999999999 277.9350000000002 1367.3899999999999C277.9820000000002 1367.3899999999999 278.02400000000017 1367.3899999999999 278.07000000000016 1367.3899999999999C278.10100000000017 1367.3899999999999 278.1290000000002 1367.3799999999999 278.1580000000002 1367.3799999999999C278.1720000000002 1367.3799999999999 278.1890000000002 1367.3799999999999 278.2060000000002 1367.3799999999999C278.2410000000002 1367.37 278.2760000000002 1367.37 278.3100000000002 1367.36L278.3430000000002 1367.35C278.3830000000002 1367.34 278.4230000000002 1367.33 278.4620000000002 1367.32L278.48500000000024 1367.31C278.78000000000026 1367.22 279.30200000000025 1367.02 279.90700000000027 1366.78C281.0700000000003 1366.33 282.30700000000024 1365.79 283.58500000000026 1365.18C287.23000000000025 1363.45 290.7910000000003 1361.25 294.4710000000003 1358.46C305.1900000000003 1350.33 310.6250000000003 1340.24 310.6250000000003 1328.48V1302.64C310.6250000000003 1301.95 310.29900000000026 1301.15 309.3800000000003 1301.15ZM307.827 1304.34C307.824 1304.48 307.748 1304.54 307.663 1304.58V1328.48C307.663 1339.26 302.62100000000004 1348.55 292.677 1356.09C289.348 1358.61 285.819 1360.77 282.18600000000004 1362.49C280.72400000000005 1363.19 279.699 1363.64 278.759 1364.02C278.632 1364.07 278.521 1364.11 278.418 1364.15C278.29200000000003 1364.2 278.17900000000003 1364.25 278.069 1364.2900000000002L277.974 1364.3300000000002L277.88 1364.2900000000002C277.751 1364.2400000000002 277.613 1364.1900000000003 277.457 1364.13L277.176 1364.0200000000002C276.084 1363.5800000000002 274.914 1363.0700000000002 273.69599999999997 1362.4900000000002C269.32399999999996 1360.4100000000003 265.767 1358.3200000000002 262.823 1356.0900000000001C252.54699999999997 1348.2900000000002 247.337 1339.0100000000002 247.337 1328.4800000000002V1304.3400000000001C247.337 1304.0700000000002 247.587 1304.0700000000002 247.76999999999998 1304.0700000000002C247.843 1304.0700000000002 247.91599999999997 1304.0700000000002 247.933 1304.0600000000002C249.09 1304.0000000000002 250.86499999999998 1303.8700000000001 252.73399999999998 1303.64C257.923 1302.98 262.722 1301.8200000000002 266.998 1300.19C271.2 1298.6000000000001 274.835 1296.5700000000002 277.80199999999996 1294.18L277.96999999999997 1294.05L278.13899999999995 1294.18C281.11599999999993 1296.5800000000002 284.74499999999995 1298.6000000000001 288.92599999999993 1300.19C293.22099999999995 1301.8300000000002 298.0009999999999 1302.99 303.13199999999995 1303.64C304.917 1303.8600000000001 306.24499999999995 1303.99 307.57099999999997 1304.0600000000002L307.83099999999996 1304.0800000000002Z " fill-opacity="1" transform="matrix(1,0,0,1,-244,-1290)"></path></svg>
+</figure>
+
+      </div>
+        <h2 class="ma__section-links__title js-accordion-link" id="section_titles_2501">
+      <span class="ma__decorative-link">
+  <a 
+    href="2501.html" 
+    class="js-clickable-link"
+            >Public Safety&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+    </h2>
+    <nav class="ma__section-links__toggle-content js-accordion-body" aria-labelledby="section_titles_2501">
+              <p class="ma__section-links__description">From emergencies to crime to licensing, find the information you need on critical public safety issues that affect all Massachusetts residents.</p>
+            <div class="ma__section-links__mobile-title">
+                <span class="ma__decorative-link">
+  <a 
+    href="2501.html" 
+    class="js-clickable-link"
+              aria-label="about Public Safety"
+        >Learn More&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+      </div>
+      <ul class="ma__section-links__items">
+                                          <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/eopss/law-enforce-and-cj/crime-stats-rsrch/" 
+    class="js-clickable-link"
+            >Find crime statistics&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="http://www.mass.gov/eopss/agencies/mema/be-prepared/be-informed/" 
+    class="js-clickable-link"
+            >Sign up for emergency alerts&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="report-child-abuse-and-neglect.html" 
+    class="js-clickable-link"
+            >Report child abuse and neglect&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                                  <li class="ma__section-links__item">
+              <span class="ma__decorative-link ma__decorative-link--big">
+  <a 
+    href="https://sorb.chs.state.ma.us/sorbpublic/recaptcharEntry.action?_p=OY4lwLlfVVPsoRJKS11TQfGIB8Sq8WkgPtgS7bCH0l5DZIZj9TgcBm5UYKGfjjhBJ5EsW6UAYWZe2szxxWcnoZaRyVdBJnl392rW2o-uDZY" 
+    class="js-clickable-link"
+            >Search for sex offenders&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
+</span>
+            </li>
+                        </ul>
+    </nav>
+      </div>
+</section>
+      </div>
+</section>
+    </div>
+      </div>
+
+  <div class="post-content">
+    <section class="ma__image-credit">
+  <div class="ma__image-credit__container">
+    <span class="ma__image-credit__label">Image credits:&nbsp;</span>
+          <span>Ashintully (J. Bishop/Trustees)</span>
+      </div>
+</section>
+
+    
+<section class="ma__breadcrumbs ">
+  <nav class="ma__breadcrumbs__container">
+    <div class="ma__breadcrumbs__label">
+      More in:
+    </div>
+    <ol class="ma__breadcrumbs__items">
+      <li class="ma__breadcrumbs__item"><a href="index.html">Home</a></li>
+          </ol>
+  </nav>
+</section>
+    
+  <div id="feedback">
+    <h2 class="visually-hidden">Feedback</h2>
+    <script type="text/javascript" src="https://massgov.formstack.com/forms/js.php/feedback__homepage_copy?nojquery=1&amp;nomodernizr=1&amp;no_style_strict=1&amp;jsonp=1"></script>
+    <script type="text/javascript">
+      document.getElementById('field47056299').value = window.location.href;
+    </script>
+    <noscript>
+      <a href="https://massgov.formstack.com/forms/feedback__homepage" title="Online Form">Online Form - Feedback - Multi Page</a>
+    </noscript>
+
+    <script type="text/javascript">if (typeof $ == "undefined" && jQuery){ $ = jQuery}</script>
+  </div>
+
+  </div>
+
+
+
+  </main>
+
+    <footer id="footer" class="ma__footer js-footer" role="contentinfo">
+      <div class="ma__footer__container">
+        
+        
+  <div class="ma__footer__nav">
+    <section class="ma__footer-links">
+      <nav role="navigation" aria-labelledby="block-footer1-menu" id="block-footer1">
+            
+  <h2 class="visually-hidden" id="block-footer1-menu">Footer Primary Links</h2>
+  
+
+        
+              <ul class="ma__footer-links__items">
+              <li class="ma__footer-links__item">
+	<a href="living.html" class="ma__footer-links__link is-active" data-drupal-link-system-path="node/291">Living</a>
+	      </li>
+          <li class="ma__footer-links__item">
+	<a href="working.html" class="ma__footer-links__link" data-drupal-link-system-path="node/186">Working</a>
+	      </li>
+          <li class="ma__footer-links__item">
+	<a href="learning.html" class="ma__footer-links__link" data-drupal-link-system-path="node/1751">Learning</a>
+	      </li>
+          <li class="ma__footer-links__item">
+	<a href="visiting-exploring.html" class="ma__footer-links__link" data-drupal-link-system-path="node/296">Visiting &amp; Exploring</a>
+	      </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footer2-menu" id="block-footer2">
+            
+  <h2 class="visually-hidden" id="block-footer2-menu">Footer Secondary Links</h2>
+  
+
+        
+              <ul class="ma__footer-links__items">
+              <li class="ma__footer-links__item">
+	<a href="http://www.mass.gov/opendata/#/" class="ma__footer-links__link">State Data</a>
+	      </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footer3-menu" id="block-footer3">
+            
+  <h2 class="visually-hidden" id="block-footer3-menu">Footer Tertiary Links</h2>
+  
+
+        
+              <ul class="ma__footer-links__items">
+              <li class="ma__footer-links__item">
+	<a href="site-policies.html" class="ma__footer-links__link" data-drupal-link-system-path="node/3566">Site Policies</a>
+	      </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </section>
+  </div>
+
+        <section class="ma__footer__info">
+          <div class="ma__footer__logo">
+            <div class="ma__site-logo">
+              <a href="index.html" title="Mass.gov home page">
+                <img src="images/stateseal.png" alt="Mass.gov" width="100" height="100">
+              </a>
+            </div>
+          </div>
+          <div class="ma__footer__social">
+              <nav role="navigation" aria-labelledby="block-social-menu" id="block-social">
+            
+  <h2 class="visually-hidden" id="block-social-menu">Social</h2>
+  
+
+        
+<section class="ma__social-links">
+                <ul class="ma__social-links__items">
+                    <li class="ma__social-links__item" >
+	<a href="https://www.facebook.com/massgov" class="ma__social-links__link">
+	  <span class="visually-hidden">Follow us on Facebook</span>
+	  <svg role="presentation" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="11" height="20" viewBox="0 0 11 20"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M87.162 56.75H84.73880000000001C83.9625 56.75 83.3816 57.065 83.3816 57.8612V59.25H87.162L86.86080000000001 63H83.3816V73H79.60130000000001V63H77.081V59.25H79.60130000000001V56.8463C79.60130000000001 54.318799999999996 80.94210000000001 53 83.9625 53H87.162Z " fill-opacity="1" transform="matrix(1,0,0,1,-77,-53)"></path></svg>	</a>
+      </li>
+                <li class="ma__social-links__item" >
+	<a href="https://www.instagram.com/massgov/" class="ma__social-links__link">
+	  <span class="visually-hidden">Follow us on Instagram</span>
+	  <svg role="presentation" id="SvgjsSvg1020" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="21" height="20" viewBox="0 0 21 20"><defs id="SvgjsDefs1021"></defs><path id="SvgjsPath1022" d="M346.878 59.6663C345.022 59.6663 343.518 61.158699999999996 343.518 63C343.518 64.8425 345.022 66.3338 346.878 66.3338C348.735 66.3338 350.239 64.8412 350.239 63C350.239 61.1587 348.73499999999996 59.6663 346.878 59.6663ZM350.952 54.86C349.89 54.8125 349.57 54.8025 346.878 54.8025C344.187 54.8025 343.868 54.8125 342.804 54.861200000000004C340.07 54.9838 338.79699999999997 56.27 338.673 58.96C338.625 60.0137 338.613 60.33 338.613 63C338.613 65.67 338.625 65.9863 338.674 67.0425C338.79699999999997 69.72630000000001 340.066 71.0175 342.806 71.1413C343.86699999999996 71.1887 344.18699999999995 71.1987 346.878 71.1987C349.57099999999997 71.1987 349.89 71.1875 350.954 71.14C353.688 71.0175 354.96000000000004 69.7287 355.086 67.0413C355.134 65.9863 355.144 65.67 355.144 63.00000000000001C355.144 60.330000000000005 355.134 60.01370000000001 355.086 58.96000000000001C354.96000000000004 56.27000000000001 353.684 54.98380000000001 350.952 54.86000000000001ZM346.878 68.135C344.02 68.135 341.702 65.8362 341.702 63.00000000000001C341.702 60.16380000000001 344.019 57.86500000000001 346.878 57.86500000000001C349.736 57.86500000000001 352.055 60.16380000000001 352.055 63.00000000000001C352.055 65.8362 349.738 68.135 346.878 68.135ZM352.259 58.8625C351.591 58.8625 351.04900000000004 58.324999999999996 351.04900000000004 57.662499999999994C351.04900000000004 56.99999999999999 351.591 56.46249999999999 352.259 56.46249999999999C352.927 56.46249999999999 353.469 56.99999999999999 353.469 57.662499999999994C353.469 58.324999999999996 352.928 58.8625 352.259 58.8625ZM356.899 67.1225C356.734 70.7587 354.692 72.77380000000001 351.036 72.94C349.959 72.9888 349.617 73 346.878 73C344.14 73 343.799 72.9888 342.723 72.94C339.058 72.7738 337.027 70.755 336.858 67.1225C336.809 66.05630000000001 336.797 65.7162 336.797 63C336.797 60.285 336.809 59.9438 336.858 58.8762C337.027 55.241299999999995 339.061 53.226299999999995 342.723 53.059999999999995C343.79900000000004 53.0113 344.14 52.99999999999999 346.878 52.99999999999999C349.61699999999996 52.99999999999999 349.959 53.01129999999999 351.036 53.061299999999996C354.7 53.2275 356.734 55.24999999999999 356.899 58.8775C356.948 59.943799999999996 356.959 60.285 356.959 63C356.959 65.7162 356.948 66.0563 356.899 67.1225Z " fill-opacity="1" transform="matrix(1,0,0,1,-336,-53)"></path></svg>	</a>
+      </li>
+                <li class="ma__social-links__item" >
+	<a href="https://www.linkedin.com/company/commonwealth-of-massachusetts" class="ma__social-links__link">
+	  <span class="visually-hidden">Follow us on LinkedIn</span>
+	  <svg role="presentation" id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="20" viewBox="0 0 20 20"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M182.645 71.75H178.864V58H182.645ZM180.754 56.415C179.53699999999998 56.415 178.54899999999998 55.4275 178.54899999999998 54.21C178.54899999999998 52.9925 179.53699999999998 52.005 180.754 52.005C181.97199999999998 52.005 182.95999999999998 52.9925 182.95999999999998 54.21C182.95999999999998 55.4275 181.97299999999998 56.415 180.754 56.415ZM197.766 63.3012C197.766 56.735 190.706 56.973800000000004 188.945 60.2063V58H185.165V71.75H188.945V64.745C188.945 60.8537 193.986 60.535000000000004 193.986 64.745V71.75H197.766Z " fill-opacity="1" transform="matrix(1,0,0,1,-178,-52)"></path></svg>	</a>
+      </li>
+                <li class="ma__social-links__item" >
+	<a href="https://twitter.com/massgov" class="ma__social-links__link">
+	  <span class="visually-hidden">Follow us on Twitter</span>
+	  <svg role="presentation" id="SvgjsSvg1008" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="21" height="17" viewBox="0 0 21 17"><defs id="SvgjsDefs1009"></defs><path id="SvgjsPath1010" d="M143.558 59.5463C143.82 65.3175 139.482 71.7525 131.801 71.7525C129.46499999999997 71.7525 127.29099999999998 71.0737 125.46 69.9088C127.65499999999999 70.165 129.845 69.5612 131.584 68.21C129.774 68.1763 128.246 66.99 127.721 65.36C128.37 65.4825 129.007 65.4463 129.588 65.29C127.59899999999999 64.89380000000001 126.226 63.116200000000006 126.27 61.215C126.827 61.5225 127.466 61.7075 128.143 61.7287C126.302 60.5075 125.78 58.095000000000006 126.863 56.25C128.903 58.7325 131.951 60.3663 135.389 60.5375C134.785 57.9713 136.74800000000002 55.5 139.419 55.5C140.608 55.5 141.68300000000002 55.9975 142.43800000000002 56.7962C143.38000000000002 56.6125 144.26600000000002 56.2712 145.06500000000003 55.8012C144.75700000000003 56.76 144.10000000000002 57.5638 143.247 58.0713C144.084 57.9713 144.881 57.751200000000004 145.622 57.425000000000004C145.068 58.245000000000005 144.366 58.9675 143.55800000000002 59.5463Z " fill-opacity="1" transform="matrix(1,0,0,1,-125,-55)"></path></svg>	</a>
+      </li>
+                <li class="ma__social-links__item" >
+	<a href="https://www.youtube.com/user/massgov" class="ma__social-links__link">
+	  <span class="visually-hidden">Follow us on Youtube</span>
+	  <svg role="presentation" id="SvgjsSvg1014" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="21" height="16" viewBox="0 0 21 16"><defs id="SvgjsDefs1015"></defs><path id="SvgjsPath1016" d="M238.795 59.6663L245.515 62.9938L238.795 66.3338ZM251.396 63C251.37099999999998 57.8463 250.98899999999998 55.875 247.713 55.6537C244.685 55.4488 237.942 55.45 234.91899999999998 55.6537C231.64499999999998 55.875 231.259 57.8375 231.23399999999998 63C231.259 68.1538 231.641 70.125 234.91699999999997 70.3462C237.93999999999997 70.55 244.68299999999996 70.5513 247.71099999999998 70.3462C250.98499999999999 70.125 251.37099999999998 68.1625 251.396 63Z " fill-opacity="1" transform="matrix(1,0,0,1,-231,-55)"></path></svg>	</a>
+      </li>
+        </ul>
+  
+</section>
+
+  </nav>
+
+
+          </div>
+          <div class="ma__footer__copyright">
+            <p><b>© 2017 Commonwealth of Massachusetts.</b></p>
+            <p>Mass.gov&#x00AE; is a registered service mark of the Commonwealth of Massachusetts.</p>
+            <a href="privacypolicy.html">Mass.gov Privacy Policy</a>
+          </div>
+        </section>
+      </div>
+      <button class="ma__footer__back2top js-back2top">
+        <svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg>        <span aria-hidden="true">Top</span>
+        <span class="visually-hidden">Go to the top of the page</span>
+      </button>
+    </footer>
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,es,fr,it,km,ko,pt,ru,vi,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        document.querySelector('#google_translate_element') !== null ? document.querySelector('#google_translate_element').classList.add('has-rendered') : '';
+      }
+      (function() {
+        var script = document.createElement('script');
+        script.src = "http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        script.async = true;
+        element = document.getElementsByTagName('body')[0];
+        element.append(script);
+      })();
+    </script>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/291","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","crazyegg":{"crazyegg":{"account_path":"pages\/scripts\/0057\/2337.js"}},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"user":{"uid":0,"permissionsHash":"c517b8747ceb8addac7f6045d509c145b2230db951fdcd423291374f17475227"}}</script>
+<script src="images/js_yg1ol-q5ey0xezeiix3g4zq18lt0dyxwplosa4hyng4.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"23b062ec87","applicationID":"46704875","transactionName":"bgcGbUZVXkMCUEZcXldNMUtdG1leB1ZKG0FREg==","queueTime":0,"applicationTime":81,"atts":"QkAFGw5PTU0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from pilot.mass.gov/living by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 May 2017 15:42:19 GMT -->
+</html>
